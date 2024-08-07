@@ -1,0 +1,15 @@
+--cpu Cortex-M3
+".\objects\cortexm3_driver.o"
+".\objects\startup_cm3ds.o"
+".\objects\handler.o"
+".\objects\system.o"
+".\objects\retarget.o"
+".\objects\main.o"
+".\objects\basic_draw.o"
+".\objects\draw.o"
+".\objects\basic_run.o"
+".\objects\run.o"
+--library_type=microlib --scatter ".\Objects\CortexM3.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\CortexM3.map" -o .\Objects\CortexM3.axf

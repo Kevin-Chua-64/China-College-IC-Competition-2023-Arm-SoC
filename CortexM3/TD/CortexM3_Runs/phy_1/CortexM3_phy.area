@@ -1,0 +1,131 @@
+standard
+***Report Model: CortexM3 Device: PH1A60GEG324***
+
+Design Statistics
+#IO                        35
+  #input                    8
+  #output                  26
+  #inout                    1
+#lut6                   11719   out of  39360   29.77%
+#reg                     5431
+  #slice reg             5431   out of  78720    6.90%
+  #pad reg                  0
+
+Utilization Statistics
+#slice                  12860   out of  39360   32.67%
+  #used ram              1024
+    #dram                1024
+    #shifter                0
+  #used logic           11836
+    #with luts          10695
+    #with adder           791
+    #reg only             350
+#feedthrough             5773
+#f7mux                    128   out of  19680    0.65%
+#f8mux                     64   out of   9840    0.65%
+#dsp                        3   out of    120    2.50%
+#eram                       0   out of    158    0.00%
+  #eram20k                  0
+  #fifo20k                  0
+#pad                       35   out of    211   16.59%
+#pll                        1   out of     12    8.33%
+#gclk                       2   out of     32    6.25%
+#lclk                       0   out of     24    0.00%
+#mlclk                      0   out of     12    0.00%
+#ioclk                      0   out of     24    0.00%
+
+Clock Resource Statistics
+Index     ClockNet                   Type        DriverType         Driver                           ClockFanout
+#1        SynClockTD$PLL/clk0_buf    UserGclk    pll                SynClockTD$PLL/pll_inst.clkc0    3723
+#2        SWCLK_dup_1                UserGclk    io                 SWCLK_syn_2.di                   129
+
+
+Detailed IO Report
+
+      Name        Direction    Location    IOStandard    DriveStrength    PullType    PackReg  
+     CLK50m         INPUT         B8        LVCMOS33          N/A          PULLUP      NONE    
+      RSTn          INPUT        R11        LVCMOS33          N/A          PULLUP      NONE    
+      RXD           INPUT        D15        LVCMOS33          N/A          PULLUP      NONE    
+     SWCLK          INPUT        B17        LVCMOS33          N/A          PULLUP      NONE    
+    keyIn[3]        INPUT        E16        LVCMOS33          N/A          PULLUP      NONE    
+    keyIn[2]        INPUT        J17        LVCMOS33          N/A          PULLUP      NONE    
+    keyIn[1]        INPUT        E15        LVCMOS33          N/A          PULLUP      NONE    
+    keyIn[0]        INPUT        J18        LVCMOS33          N/A          PULLUP      NONE    
+   LCD_BL_CTR      OUTPUT        H14        LVCMOS33           8            NONE       NONE    
+     LCD_CS        OUTPUT        A11        LVCMOS33           8            NONE       NONE    
+  LCD_DATA[15]     OUTPUT        G14        LVCMOS33           8            NONE       NONE    
+  LCD_DATA[14]     OUTPUT        H16        LVCMOS33           8            NONE       NONE    
+  LCD_DATA[13]     OUTPUT        F15        LVCMOS33           8            NONE       NONE    
+  LCD_DATA[12]     OUTPUT        G16        LVCMOS33           8            NONE       NONE    
+  LCD_DATA[11]     OUTPUT        F16        LVCMOS33           8            NONE       NONE    
+  LCD_DATA[10]     OUTPUT        F14        LVCMOS33           8            NONE       NONE    
+  LCD_DATA[9]      OUTPUT        C14        LVCMOS33           8            NONE       NONE    
+  LCD_DATA[8]      OUTPUT        F13        LVCMOS33           8            NONE       NONE    
+  LCD_DATA[7]      OUTPUT        D14        LVCMOS33           8            NONE       NONE    
+  LCD_DATA[6]      OUTPUT        B14        LVCMOS33           8            NONE       NONE    
+  LCD_DATA[5]      OUTPUT        B12        LVCMOS33           8            NONE       NONE    
+  LCD_DATA[4]      OUTPUT        B13        LVCMOS33           8            NONE       NONE    
+  LCD_DATA[3]      OUTPUT        C12        LVCMOS33           8            NONE       NONE    
+  LCD_DATA[2]      OUTPUT        D13        LVCMOS33           8            NONE       NONE    
+  LCD_DATA[1]      OUTPUT        A16        LVCMOS33           8            NONE       NONE    
+  LCD_DATA[0]      OUTPUT        D12        LVCMOS33           8            NONE       NONE    
+     LCD_RD        OUTPUT        A14        LVCMOS33           8            NONE       NONE    
+     LCD_RS        OUTPUT        A13        LVCMOS33           8            NONE       NONE    
+    LCD_RST        OUTPUT        A15        LVCMOS33           8            NONE       NONE    
+     LCD_WR        OUTPUT        B11        LVCMOS33           8            NONE       NONE    
+      TXD          OUTPUT        D17        LVCMOS33           8            NONE       NONE    
+   buzzerOut       OUTPUT         C9        LVCMOS33           8            NONE       NONE    
+   ledOut[1]       OUTPUT        K18        LVCMOS33           8            NONE       NONE    
+   ledOut[0]       OUTPUT        K17        LVCMOS33           8            NONE       NONE    
+     SWDIO          INOUT        B16        LVCMOS33           8           PULLUP      NONE    
+
+Report Hierarchy Area:
++------------------------------------------------------------------------------------------------------------------------------------------------------+
+|Instance                     |Module               |lut     |ripple  |seq     |eram    |dsp     |dram    |shifter |pll     |serdes  |pcie    |ddr     |
++------------------------------------------------------------------------------------------------------------------------------------------------------+
+|top                          |CortexM3             |10695   |791     |5431    |0       |3       |128     |0       |1       |0       |0       |0       |
+|  AhbDtcm                    |cmsdk_ahb_to_sram    |45      |0       |49      |0       |0       |0       |0       |0       |0       |0       |0       |
+|  AhbItcm                    |cmsdk_ahb_to_sram    |35      |0       |49      |0       |0       |0       |0       |0       |0       |0       |0       |
+|  AhbMtx                     |AhbMtx               |93      |0       |117     |0       |0       |0       |0       |0       |0       |0       |0       |
+|    u_AhbMtxInStg_0          |AhbMtxInStg          |14      |0       |25      |0       |0       |0       |0       |0       |0       |0       |0       |
+|    u_AhbMtxInStg_1          |AhbMtxInStg          |30      |0       |30      |0       |0       |0       |0       |0       |0       |0       |0       |
+|    u_AhbMtxInStg_2          |AhbMtxInStg          |25      |0       |38      |0       |0       |0       |0       |0       |0       |0       |0       |
+|    u_ahbmtxdecs0            |AhbMtxDecS0          |2       |0       |3       |0       |0       |0       |0       |0       |0       |0       |0       |
+|      u_AhbMtx_default_slave |AhbMtx_default_slave |1       |0       |1       |0       |0       |0       |0       |0       |0       |0       |0       |
+|    u_ahbmtxdecs1            |AhbMtxDecS1          |3       |0       |4       |0       |0       |0       |0       |0       |0       |0       |0       |
+|      u_AhbMtx_default_slave |AhbMtx_default_slave |2       |0       |3       |0       |0       |0       |0       |0       |0       |0       |0       |
+|    u_ahbmtxdecs2            |AhbMtxDecS2          |3       |0       |5       |0       |0       |0       |0       |0       |0       |0       |0       |
+|      u_AhbMtx_default_slave |AhbMtx_default_slave |1       |0       |1       |0       |0       |0       |0       |0       |0       |0       |0       |
+|    u_ahbmtxoutstgm0_0       |AhbMtxOutStgM0       |4       |0       |3       |0       |0       |0       |0       |0       |0       |0       |0       |
+|      u_output_arb           |AhbMtxArbM0          |3       |0       |2       |0       |0       |0       |0       |0       |0       |0       |0       |
+|    u_ahbmtxoutstgm1_1       |AhbMtxOutStgM1       |5       |0       |4       |0       |0       |0       |0       |0       |0       |0       |0       |
+|      u_output_arb           |AhbMtxArbM1          |3       |0       |2       |0       |0       |0       |0       |0       |0       |0       |0       |
+|    u_ahbmtxoutstgm2_2       |AhbMtxOutStgM2       |7       |0       |5       |0       |0       |0       |0       |0       |0       |0       |0       |
+|      u_output_arb           |AhbMtxArbM2          |4       |0       |2       |0       |0       |0       |0       |0       |0       |0       |0       |
+|  ApbBridge                  |cmsdk_ahb_to_apb     |126     |0       |51      |0       |0       |0       |0       |0       |0       |0       |0       |
+|  Buzzer                     |custom_apb_buzzer    |1       |0       |1       |0       |0       |0       |0       |0       |0       |0       |0       |
+|  DTCM                       |cmsdk_fpga_sram      |240     |0       |11      |0       |0       |64      |0       |0       |0       |0       |0       |
+|  ITCM                       |cmsdk_fpga_sram      |294     |0       |11      |0       |0       |64      |0       |0       |0       |0       |0       |
+|  Key                        |custom_apb_key       |1       |0       |2       |0       |0       |0       |0       |0       |0       |0       |0       |
+|  LCD                        |custom_apb_lcd       |18      |0       |24      |0       |0       |0       |0       |0       |0       |0       |0       |
+|  LED                        |custom_apb_led       |2       |0       |2       |0       |0       |0       |0       |0       |0       |0       |0       |
+|  SynClockTD$PLL             |PLL                  |0       |0       |0       |0       |0       |0       |0       |1       |0       |0       |0       |
+|  Timer                      |cmsdk_apb_timer      |71      |32      |77      |0       |0       |0       |0       |0       |0       |0       |0       |
+|  UART                       |cmsdk_apb_uart       |85      |16      |116     |0       |0       |0       |0       |0       |0       |0       |0       |
+|  ulogic                     |cortexm3ds_logic     |9682    |743     |4919    |0       |3       |0       |0       |0       |0       |0       |0       |
++------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
+DataNet Average Fanout:
+
+   Index     Fanout     Nets   
+    #1          1       10983  
+    #2          2       4156   
+    #3          3       1702   
+    #4          4       1183   
+    #5        5-10      3648   
+    #6        11-50     1037   
+    #7       51-100      93    
+    #8       101-500     12    
+    #9        >500       12    
+  Average     3.95             

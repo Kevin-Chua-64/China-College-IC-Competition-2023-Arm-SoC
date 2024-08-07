@@ -1,0 +1,36 @@
+=========================================================================================================
+Auto created by Tang Dynasty v5.6.56362
+Copyright (c) 2012-2022 Anlogic
+Thu Jul 20 20:36:14 2023
+=========================================================================================================
+
+
+Top Model:                CortexM3                                                        
+Device:                   ph1_60                                                          
+Timing Constraint File:                                                                   
+STA Level:                Detail                                                          
+Speed Grade:              3                                                               
+
+=========================================================================================================
+Timing summary:                                                                           
+---------------------------------------------------------------------------------------------------------
+Constraint path number: 0 (STA coverage = 0.00%)
+Timing violations: 0 setup errors, and 0 hold errors.
+Minimal setup slack: infinity, minimal hold slack: infinity
+
+Timing group statistics: 
+	Clock constraints: 
+	  No constraint path
+	Minimum input arrival time before clock: no constraint path
+	Maximum output required time after clock: no constraint path
+	Maximum combinational path delay: no constraint path
+
+
+Warning: No clock constraint on 5 clock net(s): 
+	CLK50m_dup_1
+	SWCLK_dup_1
+	SynClockTD$PLL/clk0_buf
+	ulogic/HCLK
+	ulogic/SWCLKTCK
+
+---------------------------------------------------------------------------------------------------------

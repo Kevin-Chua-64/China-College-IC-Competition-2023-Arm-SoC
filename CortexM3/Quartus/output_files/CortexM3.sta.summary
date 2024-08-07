@@ -1,0 +1,137 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 100C Model Setup 'SynClockQuartus.PLL|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -12.060
+TNS   : -2659.714
+
+Type  : Slow 1200mV 100C Model Setup 'SWCLK'
+Slack : -6.440
+TNS   : -775.173
+
+Type  : Slow 1200mV 100C Model Hold 'SynClockQuartus.PLL|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.393
+TNS   : 0.000
+
+Type  : Slow 1200mV 100C Model Hold 'SWCLK'
+Slack : 0.395
+TNS   : 0.000
+
+Type  : Slow 1200mV 100C Model Recovery 'SWCLK'
+Slack : -2.818
+TNS   : -380.457
+
+Type  : Slow 1200mV 100C Model Recovery 'SynClockQuartus.PLL|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 14.948
+TNS   : 0.000
+
+Type  : Slow 1200mV 100C Model Removal 'SynClockQuartus.PLL|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 2.354
+TNS   : 0.000
+
+Type  : Slow 1200mV 100C Model Removal 'SWCLK'
+Slack : 2.389
+TNS   : 0.000
+
+Type  : Slow 1200mV 100C Model Minimum Pulse Width 'SWCLK'
+Slack : -3.000
+TNS   : -262.570
+
+Type  : Slow 1200mV 100C Model Minimum Pulse Width 'SynClockQuartus.PLL|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 9.702
+TNS   : 0.000
+
+Type  : Slow 1200mV 100C Model Minimum Pulse Width 'CLK50m'
+Slack : 9.853
+TNS   : 0.000
+
+Type  : Slow 1200mV -40C Model Setup 'SynClockQuartus.PLL|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -10.422
+TNS   : -1117.792
+
+Type  : Slow 1200mV -40C Model Setup 'SWCLK'
+Slack : -5.719
+TNS   : -665.901
+
+Type  : Slow 1200mV -40C Model Hold 'SynClockQuartus.PLL|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.324
+TNS   : 0.000
+
+Type  : Slow 1200mV -40C Model Hold 'SWCLK'
+Slack : 0.326
+TNS   : 0.000
+
+Type  : Slow 1200mV -40C Model Recovery 'SWCLK'
+Slack : -2.306
+TNS   : -306.683
+
+Type  : Slow 1200mV -40C Model Recovery 'SynClockQuartus.PLL|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 15.641
+TNS   : 0.000
+
+Type  : Slow 1200mV -40C Model Removal 'SynClockQuartus.PLL|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 1.976
+TNS   : 0.000
+
+Type  : Slow 1200mV -40C Model Removal 'SWCLK'
+Slack : 2.000
+TNS   : 0.000
+
+Type  : Slow 1200mV -40C Model Minimum Pulse Width 'SWCLK'
+Slack : -3.000
+TNS   : -262.570
+
+Type  : Slow 1200mV -40C Model Minimum Pulse Width 'SynClockQuartus.PLL|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 9.677
+TNS   : 0.000
+
+Type  : Slow 1200mV -40C Model Minimum Pulse Width 'CLK50m'
+Slack : 9.878
+TNS   : 0.000
+
+Type  : Fast 1200mV -40C Model Setup 'SynClockQuartus.PLL|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -5.173
+TNS   : -531.315
+
+Type  : Fast 1200mV -40C Model Setup 'SWCLK'
+Slack : -2.737
+TNS   : -269.547
+
+Type  : Fast 1200mV -40C Model Hold 'SynClockQuartus.PLL|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.168
+TNS   : 0.000
+
+Type  : Fast 1200mV -40C Model Hold 'SWCLK'
+Slack : 0.169
+TNS   : 0.000
+
+Type  : Fast 1200mV -40C Model Recovery 'SWCLK'
+Slack : -0.895
+TNS   : -106.657
+
+Type  : Fast 1200mV -40C Model Recovery 'SynClockQuartus.PLL|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 17.587
+TNS   : 0.000
+
+Type  : Fast 1200mV -40C Model Removal 'SynClockQuartus.PLL|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 1.140
+TNS   : 0.000
+
+Type  : Fast 1200mV -40C Model Removal 'SWCLK'
+Slack : 1.161
+TNS   : 0.000
+
+Type  : Fast 1200mV -40C Model Minimum Pulse Width 'SWCLK'
+Slack : -3.000
+TNS   : -227.322
+
+Type  : Fast 1200mV -40C Model Minimum Pulse Width 'CLK50m'
+Slack : 9.607
+TNS   : 0.000
+
+Type  : Fast 1200mV -40C Model Minimum Pulse Width 'SynClockQuartus.PLL|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 9.741
+TNS   : 0.000
+
+------------------------------------------------------------

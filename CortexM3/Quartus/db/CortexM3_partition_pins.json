@@ -1,0 +1,145 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "TXD",
+					"strict" : false
+				},
+				{
+					"name" : "LCD_CS",
+					"strict" : false
+				},
+				{
+					"name" : "LCD_RS",
+					"strict" : false
+				},
+				{
+					"name" : "LCD_WR",
+					"strict" : false
+				},
+				{
+					"name" : "LCD_RD",
+					"strict" : false
+				},
+				{
+					"name" : "LCD_RST",
+					"strict" : false
+				},
+				{
+					"name" : "LCD_BL_CTR",
+					"strict" : false
+				},
+				{
+					"name" : "LCD_DATA[0]",
+					"strict" : false
+				},
+				{
+					"name" : "LCD_DATA[1]",
+					"strict" : false
+				},
+				{
+					"name" : "LCD_DATA[2]",
+					"strict" : false
+				},
+				{
+					"name" : "LCD_DATA[3]",
+					"strict" : false
+				},
+				{
+					"name" : "LCD_DATA[4]",
+					"strict" : false
+				},
+				{
+					"name" : "LCD_DATA[5]",
+					"strict" : false
+				},
+				{
+					"name" : "LCD_DATA[6]",
+					"strict" : false
+				},
+				{
+					"name" : "LCD_DATA[7]",
+					"strict" : false
+				},
+				{
+					"name" : "LCD_DATA[8]",
+					"strict" : false
+				},
+				{
+					"name" : "LCD_DATA[9]",
+					"strict" : false
+				},
+				{
+					"name" : "LCD_DATA[10]",
+					"strict" : false
+				},
+				{
+					"name" : "LCD_DATA[11]",
+					"strict" : false
+				},
+				{
+					"name" : "LCD_DATA[12]",
+					"strict" : false
+				},
+				{
+					"name" : "LCD_DATA[13]",
+					"strict" : false
+				},
+				{
+					"name" : "LCD_DATA[14]",
+					"strict" : false
+				},
+				{
+					"name" : "LCD_DATA[15]",
+					"strict" : false
+				},
+				{
+					"name" : "ledOut[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ledOut[1]",
+					"strict" : false
+				},
+				{
+					"name" : "buzzerOut",
+					"strict" : false
+				},
+				{
+					"name" : "SWDIO",
+					"strict" : false
+				},
+				{
+					"name" : "RSTn",
+					"strict" : false
+				},
+				{
+					"name" : "keyIn[0]",
+					"strict" : false
+				},
+				{
+					"name" : "keyIn[1]",
+					"strict" : false
+				},
+				{
+					"name" : "SWCLK",
+					"strict" : false
+				},
+				{
+					"name" : "keyIn[2]",
+					"strict" : false
+				},
+				{
+					"name" : "keyIn[3]",
+					"strict" : false
+				},
+				{
+					"name" : "RXD",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

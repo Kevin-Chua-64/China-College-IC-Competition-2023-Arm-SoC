@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Sat Jul 22 21:15:09 2023
+Quartus Prime Version : 17.1.0 Build 590 10/25/2017 SJ Standard Edition
+Revision Name : CortexM3
+Top-level Entity Name : CortexM3
+Family : Cyclone IV E
+Total logic elements : 24,660
+    Total combinational functions : 22,133
+    Dedicated logic registers : 5,591
+Total registers : 5591
+Total pins : 35
+Total virtual pins : 0
+Total memory bits : 1,048,576
+Embedded Multiplier 9-bit elements : 6
+Total PLLs : 1

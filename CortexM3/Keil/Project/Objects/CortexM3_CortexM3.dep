@@ -1,0 +1,79 @@
+Dependencies for Project 'CortexM3', Target 'CortexM3': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (..\Software\Core\CMSIS\core_cm3.h)(0x596DEE65)()
+F (..\Software\Core\CMSIS\core_cmFunc.h)(0x596DEE65)()
+F (..\Software\Core\CMSIS\core_cmInstr.h)(0x596DEE65)()
+F (..\Software\Core\Device\Include\CortexM3.h)(0x64BBE4D0)()
+F (..\Software\Core\Device\Source\CortexM3_driver.c)(0x64BBE610)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Software\Core\CMSIS -I ..\Software\Core\Device\Include -I ..\Software\User\Func --diag_suppress=47,223-ID:\Users\DELL\AppData\Local\Arm\Packs\Keil\V2M-MPS2_CMx_BSP\1.8.0\Device\CMSDK_CM3\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DCMSDK_CM3-o .\objects\cortexm3_driver.o --omf_browse .\objects\cortexm3_driver.crf --depend .\objects\cortexm3_driver.d)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
+I (..\Software\Core\Device\Include\CortexM3.h)(0x64BBE4D0)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (..\Software\Core\CMSIS\core_cm3.h)(0x596DEE65)
+I (..\Software\Core\CMSIS\core_cmInstr.h)(0x596DEE65)
+I (..\Software\Core\CMSIS\core_cmFunc.h)(0x596DEE65)
+I (..\Software\User\Func\lcdfont.h)(0x5DF1A1D0)
+F (..\Software\Core\Device\Include\CortexM3_driver.h)(0x64BBCF55)()
+F (..\Software\Core\Device\Source\startup_CM3DS.s)(0x64BBCE67)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-ID:\Users\DELL\AppData\Local\Arm\Packs\Keil\V2M-MPS2_CMx_BSP\1.8.0\Device\CMSDK_CM3\Include-ID:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 533" --pd "CMSDK_CM3 SETA 1"--list .\listings\startup_cm3ds.lst --xref -o .\objects\startup_cm3ds.o --depend .\objects\startup_cm3ds.d)
+F (..\Software\Core\Device\Source\handler.c)(0x64BBE4FB)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Software\Core\CMSIS -I ..\Software\Core\Device\Include -I ..\Software\User\Func --diag_suppress=47,223-ID:\Users\DELL\AppData\Local\Arm\Packs\Keil\V2M-MPS2_CMx_BSP\1.8.0\Device\CMSDK_CM3\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DCMSDK_CM3-o .\objects\handler.o --omf_browse .\objects\handler.crf --depend .\objects\handler.d)
+I (..\Software\Core\Device\Include\CortexM3.h)(0x64BBE4D0)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (..\Software\Core\CMSIS\core_cm3.h)(0x596DEE65)
+I (..\Software\Core\CMSIS\core_cmInstr.h)(0x596DEE65)
+I (..\Software\Core\CMSIS\core_cmFunc.h)(0x596DEE65)
+I (..\Software\User\Func\music.h)(0x64BBE483)
+F (..\Software\Core\Device\Source\system.c)(0x64BBCEB3)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Software\Core\CMSIS -I ..\Software\Core\Device\Include -I ..\Software\User\Func --diag_suppress=47,223-ID:\Users\DELL\AppData\Local\Arm\Packs\Keil\V2M-MPS2_CMx_BSP\1.8.0\Device\CMSDK_CM3\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DCMSDK_CM3-o .\objects\system.o --omf_browse .\objects\system.crf --depend .\objects\system.d)
+I (..\Software\Core\Device\Include\CortexM3.h)(0x64BBE4D0)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (..\Software\Core\CMSIS\core_cm3.h)(0x596DEE65)
+I (..\Software\Core\CMSIS\core_cmInstr.h)(0x596DEE65)
+I (..\Software\Core\CMSIS\core_cmFunc.h)(0x596DEE65)
+F (..\Software\Core\Device\Source\Retarget.c)(0x64BBCEB3)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Software\Core\CMSIS -I ..\Software\Core\Device\Include -I ..\Software\User\Func --diag_suppress=47,223-ID:\Users\DELL\AppData\Local\Arm\Packs\Keil\V2M-MPS2_CMx_BSP\1.8.0\Device\CMSDK_CM3\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DCMSDK_CM3-o .\objects\retarget.o --omf_browse .\objects\retarget.crf --depend .\objects\retarget.d)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
+I (..\Software\Core\Device\Include\CortexM3.h)(0x64BBE4D0)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (..\Software\Core\CMSIS\core_cm3.h)(0x596DEE65)
+I (..\Software\Core\CMSIS\core_cmInstr.h)(0x596DEE65)
+I (..\Software\Core\CMSIS\core_cmFunc.h)(0x596DEE65)
+F (..\Software\User\main.c)(0x64BBE4E3)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Software\Core\CMSIS -I ..\Software\Core\Device\Include -I ..\Software\User\Func --diag_suppress=47,223-ID:\Users\DELL\AppData\Local\Arm\Packs\Keil\V2M-MPS2_CMx_BSP\1.8.0\Device\CMSDK_CM3\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DCMSDK_CM3-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
+I (..\Software\Core\Device\Include\CortexM3.h)(0x64BBE4D0)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (..\Software\Core\CMSIS\core_cm3.h)(0x596DEE65)
+I (..\Software\Core\CMSIS\core_cmInstr.h)(0x596DEE65)
+I (..\Software\Core\CMSIS\core_cmFunc.h)(0x596DEE65)
+I (..\Software\User\Func\run.h)(0x64BBDAF0)
+F (..\Software\User\Func\basic_draw.c)(0x64BBCEB3)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Software\Core\CMSIS -I ..\Software\Core\Device\Include -I ..\Software\User\Func --diag_suppress=47,223-ID:\Users\DELL\AppData\Local\Arm\Packs\Keil\V2M-MPS2_CMx_BSP\1.8.0\Device\CMSDK_CM3\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DCMSDK_CM3-o .\objects\basic_draw.o --omf_browse .\objects\basic_draw.crf --depend .\objects\basic_draw.d)
+I (..\Software\Core\Device\Include\CortexM3.h)(0x64BBE4D0)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (..\Software\Core\CMSIS\core_cm3.h)(0x596DEE65)
+I (..\Software\Core\CMSIS\core_cmInstr.h)(0x596DEE65)
+I (..\Software\Core\CMSIS\core_cmFunc.h)(0x596DEE65)
+I (..\Software\User\Func\basic_draw.h)(0x64BA8993)
+F (..\Software\User\Func\draw.c)(0x64BBCEB3)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Software\Core\CMSIS -I ..\Software\Core\Device\Include -I ..\Software\User\Func --diag_suppress=47,223-ID:\Users\DELL\AppData\Local\Arm\Packs\Keil\V2M-MPS2_CMx_BSP\1.8.0\Device\CMSDK_CM3\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DCMSDK_CM3-o .\objects\draw.o --omf_browse .\objects\draw.crf --depend .\objects\draw.d)
+I (..\Software\Core\Device\Include\CortexM3.h)(0x64BBE4D0)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (..\Software\Core\CMSIS\core_cm3.h)(0x596DEE65)
+I (..\Software\Core\CMSIS\core_cmInstr.h)(0x596DEE65)
+I (..\Software\Core\CMSIS\core_cmFunc.h)(0x596DEE65)
+I (..\Software\User\Func\basic_draw.h)(0x64BA8993)
+I (..\Software\User\Func\draw.h)(0x64BA8DE3)
+F (..\Software\User\Func\basic_run.c)(0x64BBF0CC)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Software\Core\CMSIS -I ..\Software\Core\Device\Include -I ..\Software\User\Func --diag_suppress=47,223-ID:\Users\DELL\AppData\Local\Arm\Packs\Keil\V2M-MPS2_CMx_BSP\1.8.0\Device\CMSDK_CM3\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DCMSDK_CM3-o .\objects\basic_run.o --omf_browse .\objects\basic_run.crf --depend .\objects\basic_run.d)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E8E2EB2)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
+I (..\Software\Core\Device\Include\CortexM3.h)(0x64BBE4D0)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (..\Software\Core\CMSIS\core_cm3.h)(0x596DEE65)
+I (..\Software\Core\CMSIS\core_cmInstr.h)(0x596DEE65)
+I (..\Software\Core\CMSIS\core_cmFunc.h)(0x596DEE65)
+I (..\Software\User\Func\basic_draw.h)(0x64BA8993)
+I (..\Software\User\Func\draw.h)(0x64BA8DE3)
+I (..\Software\User\Func\basic_run.h)(0x64BA9464)
+F (..\Software\User\Func\run.c)(0x64BBE377)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Software\Core\CMSIS -I ..\Software\Core\Device\Include -I ..\Software\User\Func --diag_suppress=47,223-ID:\Users\DELL\AppData\Local\Arm\Packs\Keil\V2M-MPS2_CMx_BSP\1.8.0\Device\CMSDK_CM3\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DCMSDK_CM3-o .\objects\run.o --omf_browse .\objects\run.crf --depend .\objects\run.d)
+I (..\Software\Core\Device\Include\CortexM3.h)(0x64BBE4D0)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (..\Software\Core\CMSIS\core_cm3.h)(0x596DEE65)
+I (..\Software\Core\CMSIS\core_cmInstr.h)(0x596DEE65)
+I (..\Software\Core\CMSIS\core_cmFunc.h)(0x596DEE65)
+I (..\Software\User\Func\draw.h)(0x64BA8DE3)
+I (..\Software\User\Func\basic_run.h)(0x64BA9464)
+I (..\Software\User\Func\run.h)(0x64BBDAF0)

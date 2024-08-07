@@ -1,0 +1,126 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 2017  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel FPGA IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Intel and sold by Intel or its authorized distributors.  Please
+# refer to the applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus Prime
+# Version 17.1.0 Build 590 10/25/2017 SJ Standard Edition
+# Date created = 10:00:20  May 31, 2023
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		CortexM3_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus Prime software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone IV E"
+set_global_assignment -name DEVICE EP4CE55F23I7
+set_global_assignment -name TOP_LEVEL_ENTITY CortexM3
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 17.1.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "10:00:20  MAY 31, 2023"
+set_global_assignment -name LAST_QUARTUS_VERSION "17.1.0 Standard Edition"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP "-40"
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 100
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name ENABLE_OCT_DONE OFF
+set_global_assignment -name STRATIXV_CONFIGURATION_SCHEME "PASSIVE SERIAL"
+set_global_assignment -name USE_CONFIGURATION_DEVICE OFF
+set_global_assignment -name CRC_ERROR_OPEN_DRAIN OFF
+set_global_assignment -name RESERVE_ALL_UNUSED_PINS_WEAK_PULLUP "AS INPUT TRI-STATED"
+set_global_assignment -name CYCLONEII_RESERVE_NCEO_AFTER_CONFIGURATION "USE AS REGULAR IO"
+set_global_assignment -name OUTPUT_IO_TIMING_NEAR_END_VMEAS "HALF VCCIO" -rise
+set_global_assignment -name OUTPUT_IO_TIMING_NEAR_END_VMEAS "HALF VCCIO" -fall
+set_global_assignment -name OUTPUT_IO_TIMING_FAR_END_VMEAS "HALF SIGNAL SWING" -rise
+set_global_assignment -name OUTPUT_IO_TIMING_FAR_END_VMEAS "HALF SIGNAL SWING" -fall
+set_location_assignment PIN_C7 -to RSTn
+set_location_assignment PIN_T1 -to CLK50m
+set_location_assignment PIN_P22 -to RXD
+set_location_assignment PIN_P21 -to TXD
+set_location_assignment PIN_W22 -to SWCLK
+set_location_assignment PIN_R17 -to SWDIO
+set_location_assignment PIN_J20 -to LCD_BL_CTR
+set_location_assignment PIN_F20 -to LCD_CS
+set_location_assignment PIN_H22 -to LCD_DATA[15]
+set_location_assignment PIN_F21 -to LCD_DATA[14]
+set_location_assignment PIN_H19 -to LCD_DATA[13]
+set_location_assignment PIN_F22 -to LCD_DATA[12]
+set_location_assignment PIN_H20 -to LCD_DATA[11]
+set_location_assignment PIN_E21 -to LCD_DATA[10]
+set_location_assignment PIN_D21 -to LCD_DATA[9]
+set_location_assignment PIN_E22 -to LCD_DATA[8]
+set_location_assignment PIN_D22 -to LCD_DATA[7]
+set_location_assignment PIN_C21 -to LCD_DATA[6]
+set_location_assignment PIN_B21 -to LCD_DATA[5]
+set_location_assignment PIN_C22 -to LCD_DATA[4]
+set_location_assignment PIN_B22 -to LCD_DATA[3]
+set_location_assignment PIN_H17 -to LCD_DATA[2]
+set_location_assignment PIN_D20 -to LCD_DATA[1]
+set_location_assignment PIN_G18 -to LCD_DATA[0]
+set_location_assignment PIN_G17 -to LCD_RD
+set_location_assignment PIN_F17 -to LCD_RS
+set_location_assignment PIN_C20 -to LCD_RST
+set_location_assignment PIN_F19 -to LCD_WR
+set_location_assignment PIN_G5 -to ledOut[0]
+set_location_assignment PIN_B2 -to ledOut[1]
+set_location_assignment PIN_C3 -to buzzerOut
+set_location_assignment PIN_D8 -to keyIn[3]
+set_location_assignment PIN_M22 -to keyIn[2]
+set_location_assignment PIN_B11 -to keyIn[1]
+set_location_assignment PIN_A11 -to keyIn[0]
+set_global_assignment -name VERILOG_FILE ../RTL/CortexM3.v
+set_global_assignment -name VERILOG_FILE ../RTL/peripheral/buzzer/custom_apb_buzzer.v
+set_global_assignment -name VERILOG_FILE ../RTL/peripheral/led/custom_apb_led.v
+set_global_assignment -name VERILOG_FILE ../RTL/peripheral/key/custom_apb_key.v
+set_global_assignment -name VERILOG_FILE ../RTL/peripheral/lcd/custom_apb_lcd.v
+set_global_assignment -name VERILOG_FILE ../RTL/peripheral/timer/cmsdk_apb_timer.v
+set_global_assignment -name VERILOG_FILE ../RTL/peripheral/uart/cmsdk_apb_uart.v
+set_global_assignment -name VERILOG_FILE ../RTL/peripheral/sram/cmsdk_fpga_sram.v
+set_global_assignment -name VERILOG_FILE ../RTL/peripheral/sram/cmsdk_ahb_to_sram.v
+set_global_assignment -name VERILOG_FILE ../RTL/core/cortexm3ds_logic.v
+set_global_assignment -name VERILOG_FILE ../RTL/bus/Apb/cmsdk_apb_slave_mux.v
+set_global_assignment -name VERILOG_FILE ../RTL/bus/Apb/cmsdk_ahb_to_apb.v
+set_global_assignment -name VERILOG_FILE ../RTL/bus/AhbMtx/AhbMtxOutStgM2.v
+set_global_assignment -name VERILOG_FILE ../RTL/bus/AhbMtx/AhbMtxOutStgM1.v
+set_global_assignment -name VERILOG_FILE ../RTL/bus/AhbMtx/AhbMtxOutStgM0.v
+set_global_assignment -name VERILOG_FILE ../RTL/bus/AhbMtx/AhbMtxInStg.v
+set_global_assignment -name VERILOG_FILE ../RTL/bus/AhbMtx/AhbMtxDecS2.v
+set_global_assignment -name VERILOG_FILE ../RTL/bus/AhbMtx/AhbMtxDecS1.v
+set_global_assignment -name VERILOG_FILE ../RTL/bus/AhbMtx/AhbMtxDecS0.v
+set_global_assignment -name VERILOG_FILE ../RTL/bus/AhbMtx/AhbMtxArbM2.v
+set_global_assignment -name VERILOG_FILE ../RTL/bus/AhbMtx/AhbMtxArbM1.v
+set_global_assignment -name VERILOG_FILE ../RTL/bus/AhbMtx/AhbMtxArbM0.v
+set_global_assignment -name VERILOG_FILE ../RTL/bus/AhbMtx/AhbMtx_default_slave.v
+set_global_assignment -name VERILOG_FILE ../RTL/bus/AhbMtx/AhbMtx.v
+set_global_assignment -name VERILOG_FILE BUFG/BUFG/synthesis/BUFG.v -library BUFG
+set_global_assignment -name QIP_FILE BUFG/BUFG/synthesis/BUFG.qip
+set_global_assignment -name QIP_FILE PLL/PLL.qip
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

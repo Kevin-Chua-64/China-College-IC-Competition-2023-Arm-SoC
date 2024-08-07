@@ -1,0 +1,805 @@
+============================================================
+   Tang Dynasty, V5.6.56362
+   Copyright (c) 2012-2022 Anlogic
+   Executable = D:/Anlogic/TD5.6.56362/bin/td.exe
+   Built at =   19:51:00 Jul 25 2022
+   Run by =     DELL
+   Run Date =   Wed Jul 19 23:27:03 2023
+
+   Run on =     DESKTOP-CF55MT9
+============================================================
+RUN-1002 : start command "open_project CortexM3.prj"
+RUN-1001 : Print Global Property
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :        Parameters        |  Settings  |  Default Values  |  Note  
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :          message         |  standard  |     standard     |        
+RUN-1001 :   mixed_pack_place_flow  |     on     |        on        |        
+RUN-1001 :        syn_ip_flow       |    off     |       off        |        
+RUN-1001 :          thread          |    auto    |       auto       |        
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 : Print Design Property
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :   default_reg_initial   |    auto    |       auto       |        
+RUN-1001 :        infer_add        |     on     |        on        |        
+RUN-1001 :        infer_fsm        |    off     |       off        |        
+RUN-1001 :        infer_mult       |     on     |        on        |        
+RUN-1001 :        infer_ram        |     on     |        on        |        
+RUN-1001 :        infer_reg        |     on     |        on        |        
+RUN-1001 :   infer_reg_init_value  |     on     |        on        |        
+RUN-1001 :        infer_rom        |     on     |        on        |        
+RUN-1001 :      infer_shifter      |     on     |        on        |        
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 : Print Rtl Property
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :       compress_add      |   ripple   |      ripple      |        
+RUN-1001 :        elf_sload        |    off     |       off        |        
+RUN-1001 :       fix_undriven      |     0      |        0         |        
+RUN-1001 :         flatten         |    off     |       off        |        
+RUN-1001 :       gate_sharing      |     on     |        on        |        
+RUN-1001 :    hdl_warning_level    |   normal   |      normal      |        
+RUN-1001 :   impl_internal_tribuf  |     on     |        on        |        
+RUN-1001 :      impl_set_reset     |     on     |        on        |        
+RUN-1001 :        infer_gsr        |    off     |       off        |        
+RUN-1001 :      keep_hierarchy     |    auto    |       auto       |        
+RUN-1001 :        max_fanout       |    9999    |       9999       |        
+RUN-1001 :      max_oh2bin_len     |     10     |        10        |        
+RUN-1001 :       merge_equal       |     on     |        on        |        
+RUN-1001 :       merge_equiv       |     on     |        on        |        
+RUN-1001 :        merge_mux        |    off     |       off        |        
+RUN-1001 :     min_control_set     |     8      |        8         |        
+RUN-1001 :      min_ripple_len     |    auto    |       auto       |        
+RUN-1001 :       oh2bin_ratio      |    0.08    |       0.08       |        
+RUN-1001 :     opt_adder_fanout    |     on     |        on        |        
+RUN-1001 :        opt_arith        |     on     |        on        |        
+RUN-1001 :       opt_big_gate      |    off     |       off        |        
+RUN-1001 :        opt_const        |     on     |        on        |        
+RUN-1001 :      opt_const_mult     |     on     |        on        |        
+RUN-1001 :       opt_lessthan      |     on     |        on        |        
+RUN-1001 :         opt_mux         |    off     |       off        |        
+RUN-1001 :         opt_ram         |    high    |       high       |        
+RUN-1001 :      rtl_sim_model      |    off     |       off        |        
+RUN-1001 :         seq_syn         |     on     |        on        |        
+RUN-1001 : --------------------------------------------------------------
+HDL-1007 : analyze verilog file ../../../RTL/CortexM3_TD.v
+HDL-1007 : undeclared symbol 'TXEN', assumed default net type 'wire' in ../../../RTL/CortexM3_TD.v(788)
+HDL-1007 : undeclared symbol 'BAUDTICK', assumed default net type 'wire' in ../../../RTL/CortexM3_TD.v(789)
+HDL-1007 : analyze verilog file ../../../RTL/bus/AhbMtx/AhbMtx.v
+HDL-1007 : analyze verilog file ../../../RTL/bus/AhbMtx/AhbMtxArbM0.v
+HDL-1007 : analyze verilog file ../../../RTL/bus/AhbMtx/AhbMtxArbM1.v
+HDL-1007 : analyze verilog file ../../../RTL/bus/AhbMtx/AhbMtxArbM2.v
+HDL-1007 : analyze verilog file ../../../RTL/bus/AhbMtx/AhbMtxDecS0.v
+HDL-1007 : analyze verilog file ../../../RTL/bus/AhbMtx/AhbMtxDecS1.v
+HDL-1007 : analyze verilog file ../../../RTL/bus/AhbMtx/AhbMtxDecS2.v
+HDL-1007 : analyze verilog file ../../../RTL/bus/AhbMtx/AhbMtxInStg.v
+HDL-1007 : analyze verilog file ../../../RTL/bus/AhbMtx/AhbMtxOutStgM0.v
+HDL-1007 : analyze verilog file ../../../RTL/bus/AhbMtx/AhbMtxOutStgM1.v
+HDL-1007 : analyze verilog file ../../../RTL/bus/AhbMtx/AhbMtxOutStgM2.v
+HDL-1007 : analyze verilog file ../../../RTL/bus/AhbMtx/AhbMtx_default_slave.v
+HDL-1007 : analyze verilog file ../../../RTL/bus/Apb/cmsdk_ahb_to_apb.v
+HDL-1007 : analyze verilog file ../../../RTL/bus/Apb/cmsdk_apb_slave_mux.v
+HDL-1007 : analyze verilog file ../../../RTL/core/cortexm3ds_logic.v
+HDL-1007 : analyze verilog file ../../../RTL/peripheral/buzzer/custom_apb_buzzer.v
+HDL-1007 : undeclared symbol 'read_en', assumed default net type 'wire' in ../../../RTL/peripheral/buzzer/custom_apb_buzzer.v(36)
+HDL-1007 : undeclared symbol 'write_en', assumed default net type 'wire' in ../../../RTL/peripheral/buzzer/custom_apb_buzzer.v(37)
+HDL-1007 : analyze verilog file ../../../RTL/peripheral/key/custom_apb_key.v
+HDL-1007 : undeclared symbol 'read_en', assumed default net type 'wire' in ../../../RTL/peripheral/key/custom_apb_key.v(36)
+HDL-1007 : analyze verilog file ../../../RTL/peripheral/lcd/custom_apb_lcd.v
+HDL-1007 : undeclared symbol 'read_en', assumed default net type 'wire' in ../../../RTL/peripheral/lcd/custom_apb_lcd.v(42)
+HDL-1007 : undeclared symbol 'write_en', assumed default net type 'wire' in ../../../RTL/peripheral/lcd/custom_apb_lcd.v(43)
+HDL-1007 : analyze verilog file ../../../RTL/peripheral/led/custom_apb_led.v
+HDL-1007 : undeclared symbol 'read_en', assumed default net type 'wire' in ../../../RTL/peripheral/led/custom_apb_led.v(36)
+HDL-1007 : undeclared symbol 'write_en', assumed default net type 'wire' in ../../../RTL/peripheral/led/custom_apb_led.v(37)
+HDL-1007 : analyze verilog file ../../../RTL/peripheral/sram/cmsdk_ahb_to_sram.v
+HDL-1007 : analyze verilog file ../../../RTL/peripheral/sram/cmsdk_fpga_sram.v
+HDL-1007 : analyze verilog file ../../../RTL/peripheral/timer/cmsdk_apb_timer.v
+HDL-1007 : analyze verilog file ../../../RTL/peripheral/uart/cmsdk_apb_uart.v
+HDL-1007 : analyze verilog file ../../al_ip/PLL.v
+HDL-1007 : undeclared symbol 'open', assumed default net type 'wire' in ../../al_ip/PLL.v(76)
+RUN-1001 : Project manager successfully analyzed 25 source files.
+RUN-1003 : finish command "open_project CortexM3.prj" in  2.782448s wall, 2.671875s user + 0.062500s system = 2.734375s CPU (98.3%)
+
+RUN-1004 : used memory is 103 MB, reserved memory is 78 MB, peak memory is 103 MB
+RUN-1002 : start command "import_device ph1_60.db -package PH1A60GEG324"
+ARC-1001 : Device Initialization.
+ARC-1001 : ---------------------------------------------------------------
+ARC-1001 :           OPTION          |          IO          |   SETTING   
+ARC-1001 : ---------------------------------------------------------------
+ARC-1001 :   non_jtag_persist(none)  |        36 IOs        |    gpio    
+ARC-1001 :            jtag           |  P8/E10/E12/E11/E13  |  dedicate  
+ARC-1001 : ---------------------------------------------------------------
+RUN-1003 : finish command "import_device ph1_60.db -package PH1A60GEG324" in  14.340910s wall, 14.046875s user + 0.281250s system = 14.328125s CPU (99.9%)
+
+RUN-1004 : used memory is 661 MB, reserved memory is 656 MB, peak memory is 661 MB
+RUN-1002 : start command "elaborate -top CortexM3"
+RUN-1001 : Print Design Property
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :   default_reg_initial   |    auto    |       auto       |        
+RUN-1001 :        infer_add        |     on     |        on        |        
+RUN-1001 :        infer_fsm        |    off     |       off        |        
+RUN-1001 :        infer_mult       |     on     |        on        |        
+RUN-1001 :        infer_ram        |     on     |        on        |        
+RUN-1001 :        infer_reg        |     on     |        on        |        
+RUN-1001 :   infer_reg_init_value  |     on     |        on        |        
+RUN-1001 :        infer_rom        |     on     |        on        |        
+RUN-1001 :      infer_shifter      |     on     |        on        |        
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 : Print Rtl Property
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :       compress_add      |   ripple   |      ripple      |        
+RUN-1001 :        elf_sload        |    off     |       off        |        
+RUN-1001 :       fix_undriven      |     0      |        0         |        
+RUN-1001 :         flatten         |    off     |       off        |        
+RUN-1001 :       gate_sharing      |     on     |        on        |        
+RUN-1001 :    hdl_warning_level    |   normal   |      normal      |        
+RUN-1001 :   impl_internal_tribuf  |     on     |        on        |        
+RUN-1001 :      impl_set_reset     |     on     |        on        |        
+RUN-1001 :        infer_gsr        |    off     |       off        |        
+RUN-1001 :      keep_hierarchy     |    auto    |       auto       |        
+RUN-1001 :        max_fanout       |    9999    |       9999       |        
+RUN-1001 :      max_oh2bin_len     |     10     |        10        |        
+RUN-1001 :       merge_equal       |     on     |        on        |        
+RUN-1001 :       merge_equiv       |     on     |        on        |        
+RUN-1001 :        merge_mux        |    off     |       off        |        
+RUN-1001 :     min_control_set     |     8      |        8         |        
+RUN-1001 :      min_ripple_len     |    auto    |       auto       |        
+RUN-1001 :       oh2bin_ratio      |    0.08    |       0.08       |        
+RUN-1001 :     opt_adder_fanout    |     on     |        on        |        
+RUN-1001 :        opt_arith        |     on     |        on        |        
+RUN-1001 :       opt_big_gate      |    off     |       off        |        
+RUN-1001 :        opt_const        |     on     |        on        |        
+RUN-1001 :      opt_const_mult     |     on     |        on        |        
+RUN-1001 :       opt_lessthan      |     on     |        on        |        
+RUN-1001 :         opt_mux         |    off     |       off        |        
+RUN-1001 :         opt_ram         |    high    |       high       |        
+RUN-1001 :      rtl_sim_model      |    off     |       off        |        
+RUN-1001 :         seq_syn         |     on     |        on        |        
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 : Print Global Property
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :        Parameters        |  Settings  |  Default Values  |  Note  
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :          message         |  standard  |     standard     |        
+RUN-1001 :   mixed_pack_place_flow  |     on     |        on        |        
+RUN-1001 :        syn_ip_flow       |    off     |       off        |        
+RUN-1001 :          thread          |    auto    |       auto       |        
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 : Print Design Property
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :   default_reg_initial   |    auto    |       auto       |        
+RUN-1001 :        infer_add        |     on     |        on        |        
+RUN-1001 :        infer_fsm        |    off     |       off        |        
+RUN-1001 :        infer_mult       |     on     |        on        |        
+RUN-1001 :        infer_ram        |     on     |        on        |        
+RUN-1001 :        infer_reg        |     on     |        on        |        
+RUN-1001 :   infer_reg_init_value  |     on     |        on        |        
+RUN-1001 :        infer_rom        |     on     |        on        |        
+RUN-1001 :      infer_shifter      |     on     |        on        |        
+RUN-1001 : --------------------------------------------------------------
+HDL-5007 WARNING: port 'TDO' remains unconnected for this instance in ../../../RTL/CortexM3_TD.v(187)
+HDL-1007 : elaborate module CortexM3 in ../../../RTL/CortexM3_TD.v(1)
+HDL-1007 : elaborate module PH1_LOGIC_BUFG in D:/Anlogic/TD5.6.56362/arch/ph1_v2_macro.v(8560)
+HDL-1007 : elaborate module PLL in ../../al_ip/PLL.v(22)
+HDL-1007 : elaborate module PH1_PHY_PLL(CLKC0_CPHASE=19,CLKC0_DIV=20,CLKC0_DUTY_INT=10,CLKC0_ENABLE="ENABLE",FIN="50.000",PLL_USR_RST="ENABLE",PLL_FEED_TYPE="EXTERNAL",SSC_RNGE=0) in D:/Anlogic/TD5.6.56362/arch/ph1_v2_macro.v(619)
+HDL-1007 : elaborate module cortexm3ds_logic in ../../../RTL/core/cortexm3ds_logic.v(27)
+HDL-1007 : elaborate module AhbMtx in ../../../RTL/bus/AhbMtx/AhbMtx.v(48)
+HDL-1007 : elaborate module AhbMtxInStg in ../../../RTL/bus/AhbMtx/AhbMtxInStg.v(32)
+HDL-1007 : elaborate module AhbMtxDecS0 in ../../../RTL/bus/AhbMtx/AhbMtxDecS0.v(36)
+HDL-1007 : elaborate module AhbMtx_default_slave in ../../../RTL/bus/AhbMtx/AhbMtx_default_slave.v(31)
+HDL-1007 : elaborate module AhbMtxDecS1 in ../../../RTL/bus/AhbMtx/AhbMtxDecS1.v(36)
+HDL-1007 : elaborate module AhbMtxDecS2 in ../../../RTL/bus/AhbMtx/AhbMtxDecS2.v(36)
+HDL-1007 : elaborate module AhbMtxOutStgM0 in ../../../RTL/bus/AhbMtx/AhbMtxOutStgM0.v(35)
+HDL-1007 : elaborate module AhbMtxArbM0 in ../../../RTL/bus/AhbMtx/AhbMtxArbM0.v(35)
+HDL-1007 : elaborate module AhbMtxOutStgM1 in ../../../RTL/bus/AhbMtx/AhbMtxOutStgM1.v(38)
+HDL-1007 : elaborate module AhbMtxArbM1 in ../../../RTL/bus/AhbMtx/AhbMtxArbM1.v(39)
+HDL-1007 : elaborate module AhbMtxOutStgM2 in ../../../RTL/bus/AhbMtx/AhbMtxOutStgM2.v(38)
+HDL-1007 : elaborate module AhbMtxArbM2 in ../../../RTL/bus/AhbMtx/AhbMtxArbM2.v(39)
+HDL-5007 WARNING: actual bit length 2 differs from formal bit length 4 for port 'HMASTERM0' in ../../../RTL/CortexM3_TD.v(416)
+HDL-5007 WARNING: actual bit length 2 differs from formal bit length 4 for port 'HMASTERM1' in ../../../RTL/CortexM3_TD.v(435)
+HDL-5007 WARNING: actual bit length 2 differs from formal bit length 4 for port 'HMASTERM2' in ../../../RTL/CortexM3_TD.v(454)
+HDL-1007 : elaborate module cmsdk_ahb_to_sram in ../../../RTL/peripheral/sram/cmsdk_ahb_to_sram.v(26)
+HDL-5007 WARNING: actual bit length 32 differs from formal bit length 16 for port 'HADDR' in ../../../RTL/CortexM3_TD.v(490)
+HDL-1007 : elaborate module cmsdk_fpga_sram(AW=14) in ../../../RTL/peripheral/sram/cmsdk_fpga_sram.v(27)
+HDL-1007 : extracting RAM for identifier 'BRAM' in ../../../RTL/peripheral/sram/cmsdk_fpga_sram.v(51)
+HDL-5007 WARNING: actual bit length 32 differs from formal bit length 16 for port 'HADDR' in ../../../RTL/CortexM3_TD.v(534)
+HDL-1007 : elaborate module cmsdk_ahb_to_apb(REGISTER_WDATA=1) in ../../../RTL/bus/Apb/cmsdk_ahb_to_apb.v(31)
+HDL-5007 WARNING: actual bit length 32 differs from formal bit length 16 for port 'HADDR' in ../../../RTL/CortexM3_TD.v(584)
+HDL-1007 : elaborate module cmsdk_apb_slave_mux(PORT6_ENABLE=0,PORT7_ENABLE=0,PORT8_ENABLE=0,PORT9_ENABLE=0,PORT10_ENABLE=0,PORT11_ENABLE=0,PORT12_ENABLE=0,PORT13_ENABLE=0,PORT14_ENABLE=0,PORT15_ENABLE=0) in ../../../RTL/bus/Apb/cmsdk_apb_slave_mux.v(26)
+HDL-1007 : elaborate module cmsdk_apb_uart in ../../../RTL/peripheral/uart/cmsdk_apb_uart.v(53)
+HDL-1007 : elaborate module cmsdk_apb_timer in ../../../RTL/peripheral/timer/cmsdk_apb_timer.v(41)
+HDL-1007 : elaborate module custom_apb_lcd in ../../../RTL/peripheral/lcd/custom_apb_lcd.v(1)
+HDL-7007 CRITICAL-WARNING: 'PADDR' should be on the sensitivity list in ../../../RTL/peripheral/lcd/custom_apb_lcd.v(147)
+HDL-7007 CRITICAL-WARNING: 'data_LCD_CS' should be on the sensitivity list in ../../../RTL/peripheral/lcd/custom_apb_lcd.v(148)
+HDL-7007 CRITICAL-WARNING: 'data_LCD_RS' should be on the sensitivity list in ../../../RTL/peripheral/lcd/custom_apb_lcd.v(149)
+HDL-7007 CRITICAL-WARNING: 'data_LCD_WR' should be on the sensitivity list in ../../../RTL/peripheral/lcd/custom_apb_lcd.v(150)
+HDL-7007 CRITICAL-WARNING: 'data_LCD_RD' should be on the sensitivity list in ../../../RTL/peripheral/lcd/custom_apb_lcd.v(151)
+HDL-7007 CRITICAL-WARNING: 'data_LCD_RST' should be on the sensitivity list in ../../../RTL/peripheral/lcd/custom_apb_lcd.v(152)
+HDL-7007 CRITICAL-WARNING: 'data_LCD_BL_CTR' should be on the sensitivity list in ../../../RTL/peripheral/lcd/custom_apb_lcd.v(153)
+HDL-7007 CRITICAL-WARNING: 'data_LCD_DATA' should be on the sensitivity list in ../../../RTL/peripheral/lcd/custom_apb_lcd.v(154)
+HDL-7007 CRITICAL-WARNING: 'data_LCD_DATA' should be on the sensitivity list in ../../../RTL/peripheral/lcd/custom_apb_lcd.v(155)
+HDL-7007 CRITICAL-WARNING: 'data_LCD_DATA' should be on the sensitivity list in ../../../RTL/peripheral/lcd/custom_apb_lcd.v(156)
+HDL-7007 Similar messages will be suppressed.
+HDL-5007 WARNING: actual bit length 16 differs from formal bit length 12 for port 'PADDR' in ../../../RTL/CortexM3_TD.v(832)
+HDL-1007 : elaborate module custom_apb_key in ../../../RTL/peripheral/key/custom_apb_key.v(1)
+HDL-5007 WARNING: actual bit length 16 differs from formal bit length 12 for port 'PADDR' in ../../../RTL/CortexM3_TD.v(860)
+HDL-1007 : elaborate module custom_apb_led in ../../../RTL/peripheral/led/custom_apb_led.v(1)
+HDL-7007 CRITICAL-WARNING: 'PADDR' should be on the sensitivity list in ../../../RTL/peripheral/led/custom_apb_led.v(67)
+HDL-7007 CRITICAL-WARNING: 'data_led' should be on the sensitivity list in ../../../RTL/peripheral/led/custom_apb_led.v(68)
+HDL-5007 WARNING: actual bit length 16 differs from formal bit length 12 for port 'PADDR' in ../../../RTL/CortexM3_TD.v(882)
+HDL-1007 : elaborate module custom_apb_buzzer in ../../../RTL/peripheral/buzzer/custom_apb_buzzer.v(1)
+HDL-7007 CRITICAL-WARNING: 'PADDR' should be on the sensitivity list in ../../../RTL/peripheral/buzzer/custom_apb_buzzer.v(67)
+HDL-7007 CRITICAL-WARNING: 'data_buzzer' should be on the sensitivity list in ../../../RTL/peripheral/buzzer/custom_apb_buzzer.v(68)
+HDL-5007 WARNING: actual bit length 16 differs from formal bit length 12 for port 'PADDR' in ../../../RTL/CortexM3_TD.v(904)
+HDL-5001 WARNING: Contains anonymous inst(s) and/or net(s) that have not been renamed
+HDL-1200 : Current top model is CortexM3
+HDL-1100 : Inferred 1 RAMs.
+RUN-1003 : finish command "elaborate -top CortexM3" in  7.507222s wall, 7.109375s user + 0.343750s system = 7.453125s CPU (99.3%)
+
+RUN-1004 : used memory is 969 MB, reserved memory is 979 MB, peak memory is 1510 MB
+RUN-1002 : start command "export_db CortexM3_elaborate.db"
+RUN-1001 : Exported /
+RUN-1001 : Exported flow parameters
+RUN-1001 : Exported libs
+RUN-1001 : Exported entities
+RUN-1001 : Exported ports
+RUN-1001 : Exported pins
+RUN-1001 : Exported instances
+RUN-1001 : Exported nets
+RUN-1001 : Exported buses
+RUN-1001 : Exported models
+RUN-1001 : Exported congestions
+RUN-1001 : Exported violations
+RUN-1001 : Exported IO constraints
+RUN-1001 : Exported Inst constraints
+RUN-1003 : finish command "export_db CortexM3_elaborate.db" in  3.250478s wall, 5.531250s user + 0.046875s system = 5.578125s CPU (171.6%)
+
+RUN-1004 : used memory is 968 MB, reserved memory is 979 MB, peak memory is 1510 MB
+RUN-1002 : start command "read_adc ../../CortexM3_IO.adc"
+RUN-1002 : start command "set_pin_assignment  CLK50m   LOCATION = B8; "
+RUN-1002 : start command "set_pin_assignment  LCD_BL_CTR   LOCATION = H14; "
+RUN-1002 : start command "set_pin_assignment  LCD_CS   LOCATION = A11; "
+RUN-1002 : start command "set_pin_assignment  LCD_DATA[0]   LOCATION = D12; "
+RUN-1002 : start command "set_pin_assignment  LCD_DATA[10]   LOCATION = F14; "
+RUN-1002 : start command "set_pin_assignment  LCD_DATA[11]   LOCATION = F16; "
+RUN-1002 : start command "set_pin_assignment  LCD_DATA[12]   LOCATION = G16; "
+RUN-1002 : start command "set_pin_assignment  LCD_DATA[13]   LOCATION = F15; "
+RUN-1002 : start command "set_pin_assignment  LCD_DATA[14]   LOCATION = H16; "
+RUN-1002 : start command "set_pin_assignment  LCD_DATA[15]   LOCATION = G14; "
+RUN-1002 : start command "set_pin_assignment  LCD_DATA[1]   LOCATION = A16; "
+RUN-1002 : start command "set_pin_assignment  LCD_DATA[2]   LOCATION = D13; "
+RUN-1002 : start command "set_pin_assignment  LCD_DATA[3]   LOCATION = C12; "
+RUN-1002 : start command "set_pin_assignment  LCD_DATA[4]   LOCATION = B13; "
+RUN-1002 : start command "set_pin_assignment  LCD_DATA[5]   LOCATION = B12; "
+RUN-1002 : start command "set_pin_assignment  LCD_DATA[6]   LOCATION = B14; "
+RUN-1002 : start command "set_pin_assignment  LCD_DATA[7]   LOCATION = D14; "
+RUN-1002 : start command "set_pin_assignment  LCD_DATA[8]   LOCATION = F13; "
+RUN-1002 : start command "set_pin_assignment  LCD_DATA[9]   LOCATION = C14; "
+RUN-1002 : start command "set_pin_assignment  LCD_RD   LOCATION = A14; "
+RUN-1002 : start command "set_pin_assignment  LCD_RS   LOCATION = A13; "
+RUN-1002 : start command "set_pin_assignment  LCD_RST   LOCATION = A15; "
+RUN-1002 : start command "set_pin_assignment  LCD_WR   LOCATION = B11; "
+RUN-1002 : start command "set_pin_assignment  RSTn   LOCATION = R11; "
+RUN-1002 : start command "set_pin_assignment  RXD   LOCATION = D15; "
+RUN-1002 : start command "set_pin_assignment  SWCLK   LOCATION = B17; "
+RUN-1002 : start command "set_pin_assignment  SWDIO   LOCATION = B16; "
+RUN-1002 : start command "set_pin_assignment  TXD   LOCATION = D17; "
+RUN-1002 : start command "set_pin_assignment  buzzerOut   LOCATION = C9; "
+RUN-1002 : start command "set_pin_assignment  keyIn[0]   LOCATION = J18; "
+RUN-1002 : start command "set_pin_assignment  keyIn[1]   LOCATION = E15; "
+RUN-1002 : start command "set_pin_assignment  keyIn[2]   LOCATION = J17; "
+RUN-1002 : start command "set_pin_assignment  keyIn[3]   LOCATION = E16; "
+RUN-1002 : start command "set_pin_assignment  ledOut[0]   LOCATION = K17; "
+RUN-1002 : start command "set_pin_assignment  ledOut[1]   LOCATION = K18; "
+RUN-1001 : Starting of IO setups legality check.
+RUN-1002 : start command "optimize_rtl"
+RUN-1001 : Open license file D:/Anlogic/TD5.6.56362/license/Anlogic.lic
+RUN-1001 : Print Global Property
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :        Parameters        |  Settings  |  Default Values  |  Note  
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :          message         |  standard  |     standard     |        
+RUN-1001 :   mixed_pack_place_flow  |     on     |        on        |        
+RUN-1001 :        syn_ip_flow       |    off     |       off        |        
+RUN-1001 :          thread          |    auto    |       auto       |        
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 : Print Rtl Property
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :       compress_add      |   ripple   |      ripple      |        
+RUN-1001 :        elf_sload        |    off     |       off        |        
+RUN-1001 :       fix_undriven      |     0      |        0         |        
+RUN-1001 :         flatten         |    off     |       off        |        
+RUN-1001 :       gate_sharing      |     on     |        on        |        
+RUN-1001 :    hdl_warning_level    |   normal   |      normal      |        
+RUN-1001 :   impl_internal_tribuf  |     on     |        on        |        
+RUN-1001 :      impl_set_reset     |     on     |        on        |        
+RUN-1001 :        infer_gsr        |    off     |       off        |        
+RUN-1001 :      keep_hierarchy     |    auto    |       auto       |        
+RUN-1001 :        max_fanout       |    9999    |       9999       |        
+RUN-1001 :      max_oh2bin_len     |     10     |        10        |        
+RUN-1001 :       merge_equal       |     on     |        on        |        
+RUN-1001 :       merge_equiv       |     on     |        on        |        
+RUN-1001 :        merge_mux        |    off     |       off        |        
+RUN-1001 :     min_control_set     |     8      |        8         |        
+RUN-1001 :      min_ripple_len     |    auto    |       auto       |        
+RUN-1001 :       oh2bin_ratio      |    0.08    |       0.08       |        
+RUN-1001 :     opt_adder_fanout    |     on     |        on        |        
+RUN-1001 :        opt_arith        |     on     |        on        |        
+RUN-1001 :       opt_big_gate      |    off     |       off        |        
+RUN-1001 :        opt_const        |     on     |        on        |        
+RUN-1001 :      opt_const_mult     |     on     |        on        |        
+RUN-1001 :       opt_lessthan      |     on     |        on        |        
+RUN-1001 :         opt_mux         |    off     |       off        |        
+RUN-1001 :         opt_ram         |    high    |       high       |        
+RUN-1001 :      rtl_sim_model      |    off     |       off        |        
+RUN-1001 :         seq_syn         |     on     |        on        |        
+RUN-1001 : --------------------------------------------------------------
+SYN-1012 : SanityCheck: Model "CortexM3"
+SYN-1012 : SanityCheck: Model "cmsdk_ahb_to_sram"
+SYN-1012 : SanityCheck: Model "AhbMtx"
+SYN-1012 : SanityCheck: Model "AhbMtxInStg"
+SYN-1012 : SanityCheck: Model "AhbMtxDecS0"
+SYN-1012 : SanityCheck: Model "AhbMtx_default_slave"
+SYN-1012 : SanityCheck: Model "AhbMtxDecS1"
+SYN-1012 : SanityCheck: Model "AhbMtxDecS2"
+SYN-1012 : SanityCheck: Model "AhbMtxOutStgM0"
+SYN-1012 : SanityCheck: Model "AhbMtxArbM0"
+SYN-1012 : SanityCheck: Model "AhbMtxOutStgM1"
+SYN-1012 : SanityCheck: Model "AhbMtxArbM1"
+SYN-1012 : SanityCheck: Model "AhbMtxOutStgM2"
+SYN-1012 : SanityCheck: Model "AhbMtxArbM2"
+SYN-1012 : SanityCheck: Model "cmsdk_ahb_to_apb(REGISTER_WDATA=1)"
+SYN-1012 : SanityCheck: Model "cmsdk_apb_slave_mux(PORT6_ENABLE=0,PORT7_ENABLE=0,PORT8_ENABLE=0,PORT9_ENABLE=0,PORT10_ENABLE=0,PORT11_ENABLE=0,PORT12_ENABLE=0,PORT13_ENABLE=0,PORT14_ENABLE=0,PORT15_ENABLE=0)"
+SYN-1012 : SanityCheck: Model "custom_apb_buzzer"
+SYN-1012 : SanityCheck: Model "cmsdk_fpga_sram(AW=14)"
+SYN-1012 : SanityCheck: Model "custom_apb_key"
+SYN-1012 : SanityCheck: Model "custom_apb_lcd"
+SYN-1012 : SanityCheck: Model "custom_apb_led"
+SYN-1012 : SanityCheck: Model "PLL"
+SYN-1012 : SanityCheck: Model "cmsdk_apb_timer"
+SYN-1012 : SanityCheck: Model "cmsdk_apb_uart"
+SYN-1012 : SanityCheck: Model "cortexm3ds_logic"
+SYN-1043 : Mark PLL as IO macro for instance bufg_feedback
+SYN-1011 : Flatten model CortexM3
+SYN-1032 : 101439/6100 useful/useless nets, 97807/5024 useful/useless insts
+SYN-1001 : Optimize 2 less-than instances
+SYN-1016 : Merged 2820 instances.
+SYN-1025 : Merged 6 RAM ports.
+SYN-1027 : Infer Logic DRAM(DTCM/ramread0_syn_15) read 16384x8, write 16384x8
+SYN-1027 : Infer Logic DRAM(DTCM/ramread0_syn_20) read 16384x8, write 16384x8
+SYN-1027 : Infer Logic DRAM(DTCM/ramread0_syn_25) read 16384x8, write 16384x8
+SYN-1027 : Infer Logic DRAM(DTCM/ramread0_syn_30) read 16384x8, write 16384x8
+SYN-1027 : Infer Logic DRAM(ITCM/ramread0_syn_15) read 16384x8, write 16384x8
+SYN-1027 : Infer Logic DRAM(ITCM/ramread0_syn_20) read 16384x8, write 16384x8
+SYN-1027 : Infer Logic DRAM(ITCM/ramread0_syn_25) read 16384x8, write 16384x8
+SYN-1027 : Infer Logic DRAM(ITCM/ramread0_syn_30) read 16384x8, write 16384x8
+SYN-1023 : Infer 8 Logic DRAMs, 0 Logic BRAMs.
+SYN-1032 : 90137/4169 useful/useless nets, 87115/2779 useful/useless insts
+SYN-1016 : Merged 1007 instances.
+SYN-5011 WARNING: Undriven pin: model "CortexM3" / inst "AhbMtx/u_ahbmtxoutstgm0_0/mux0_syn_17" in ../../../RTL/bus/AhbMtx/AhbMtxOutStgM0.v(309) / pin "i1"
+SYN-5025 WARNING: Using 0 for all undriven pins and nets
+SYN-1032 : 89805/21 useful/useless nets, 88778/214 useful/useless insts
+SYN-3003 : Optimized 5 equivalent DFF(s)
+SYN-3004 : Optimized 4 const0 DFF(s)
+SYN-3004 : Optimized 18 const0 DFF(s)
+SYN-3004 : Optimized 41 const0 DFF(s)
+SYN-3004 : Optimized 7 const0 DFF(s)
+SYN-3003 : Optimized 1 equivalent DFF(s)
+SYN-3003 : Optimized 1 equivalent DFF(s)
+SYN-3003 : Optimized 1 equivalent DFF(s)
+SYN-3003 : Optimized 2 equivalent DFF(s)
+SYN-3003 : Optimized 1 equivalent DFF(s)
+SYN-3004 : Optimized 4 const0 DFF(s)
+SYN-3003 : Optimized 2 equivalent DFF(s)
+SYN-3004 : Optimized 3 const0 DFF(s)
+SYN-3008 : Optimized 2 const1 DFF(s)
+SYN-3004 : Optimized 77 const0 DFF(s)
+SYN-1032 : 88619/1186 useful/useless nets, 87594/1015 useful/useless insts
+SYN-1014 : Optimize round 1
+SYN-1044 : Optimized 27 inv instances.
+SYN-1032 : 87652/140 useful/useless nets, 86627/199 useful/useless insts
+SYN-1017 : Remove 1 const input seq instances
+SYN-1002 :     ulogic/B2fnz6_reg_syn_2
+SYN-1019 : Optimized 106 mux instances.
+SYN-1021 : Optimized 126 onehot mux instances.
+SYN-1020 : Optimized 141 distributor mux.
+SYN-1001 : Optimize 2 less-than instances
+SYN-1019 : Optimized 18 mux instances.
+SYN-1016 : Merged 1374 instances.
+SYN-1015 : Optimize round 1, 9576 better
+SYN-1014 : Optimize round 2
+SYN-1044 : Optimized 108 inv instances.
+SYN-1032 : 83363/364 useful/useless nets, 82350/388 useful/useless insts
+SYN-1017 : Remove 3 const input seq instances
+SYN-1002 :     ulogic/Dtv917_reg_syn_2
+SYN-1002 :     ulogic/Aov917_reg_syn_2
+SYN-1002 :     ulogic/Kdynz6_reg_syn_2
+SYN-1019 : Optimized 1 mux instances.
+SYN-1016 : Merged 2 instances.
+SYN-1015 : Optimize round 2, 1001 better
+SYN-1014 : Optimize round 3
+SYN-1016 : Merged 3 instances.
+SYN-1015 : Optimize round 3, 19 better
+SYN-1014 : Optimize round 4
+SYN-1015 : Optimize round 4, 0 better
+RUN-1003 : finish command "optimize_rtl" in  45.137703s wall, 43.437500s user + 1.609375s system = 45.046875s CPU (99.8%)
+
+RUN-1004 : used memory is 1035 MB, reserved memory is 1080 MB, peak memory is 1510 MB
+RUN-1002 : start command "report_area -file CortexM3_rtl.area"
+RUN-1001 : standard
+***Report Model: CortexM3 Device: PH1A60GEG324***
+
+IO Statistics
+#IO                        35
+  #input                    8
+  #output                  26
+  #inout                    1
+
+Gate Statistics
+#Basic gates            81244
+  #and                  40159
+  #nand                     0
+  #or                    4644
+  #nor                      0
+  #xor                   1120
+  #xnor                     0
+  #buf                      0
+  #not                  27668
+  #bufif1                   1
+  #MX21                  2195
+  #FADD                     0
+  #DFF                   5457
+  #LATCH                    0
+#MACRO_ADD                 57
+#MACRO_EQ                 101
+#MACRO_MULT                 1
+#MACRO_MUX                914
+#MACRO_OTHERS              10
+
+Report Hierarchy Area:
++---------------------------------------------------------------------------+
+|Instance                     |Module               |gates  |seq    |macros |
++---------------------------------------------------------------------------+
+|top                          |CortexM3             |75787  |5457   |169    |
+|  AhbDtcm                    |cmsdk_ahb_to_sram    |40     |53     |1      |
+|  AhbItcm                    |cmsdk_ahb_to_sram    |40     |53     |1      |
+|  AhbMtx                     |AhbMtx               |394    |125    |24     |
+|    u_AhbMtxInStg_0          |AhbMtxInStg          |14     |30     |0      |
+|    u_AhbMtxInStg_1          |AhbMtxInStg          |15     |34     |0      |
+|    u_AhbMtxInStg_2          |AhbMtxInStg          |15     |38     |0      |
+|    u_ahbmtxdecs0            |AhbMtxDecS0          |41     |3      |4      |
+|      u_AhbMtx_default_slave |AhbMtx_default_slave |4      |2      |0      |
+|    u_ahbmtxdecs1            |AhbMtxDecS1          |41     |3      |4      |
+|      u_AhbMtx_default_slave |AhbMtx_default_slave |4      |2      |0      |
+|    u_ahbmtxdecs2            |AhbMtxDecS2          |147    |5      |8      |
+|      u_AhbMtx_default_slave |AhbMtx_default_slave |4      |2      |0      |
+|    u_ahbmtxoutstgm0_0       |AhbMtxOutStgM0       |75     |3      |3      |
+|      u_output_arb           |AhbMtxArbM0          |11     |2      |1      |
+|    u_ahbmtxoutstgm1_1       |AhbMtxOutStgM1       |23     |4      |3      |
+|      u_output_arb           |AhbMtxArbM1          |8      |2      |1      |
+|    u_ahbmtxoutstgm2_2       |AhbMtxOutStgM2       |23     |5      |2      |
+|      u_output_arb           |AhbMtxArbM2          |7      |2      |0      |
+|  ApbBridge                  |cmsdk_ahb_to_apb     |10     |51     |4      |
+|  ApbSystem                  |cmsdk_apb_slave_mux  |94     |0      |6      |
+|  Buzzer                     |custom_apb_buzzer    |5      |1      |1      |
+|  DTCM                       |cmsdk_fpga_sram      |0      |15     |4      |
+|  ITCM                       |cmsdk_fpga_sram      |0      |15     |4      |
+|  Key                        |custom_apb_key       |3      |4      |0      |
+|  LCD                        |custom_apb_lcd       |36     |22     |32     |
+|  LED                        |custom_apb_led       |5      |2      |0      |
+|  SynClockTD$PLL             |PLL                  |0      |0      |1      |
+|  Timer                      |cmsdk_apb_timer      |57     |77     |5      |
+|  UART                       |cmsdk_apb_uart       |94     |116    |19     |
+|  ulogic                     |cortexm3ds_logic     |75005  |4921   |66     |
++---------------------------------------------------------------------------+
+
+RUN-1002 : start command "export_db CortexM3_rtl.db"
+RUN-1001 : Exported /
+RUN-1001 : Exported flow parameters
+RUN-1001 : Exported libs
+RUN-1001 : Exported entities
+RUN-1001 : Exported ports
+RUN-1001 : Exported pins
+RUN-1001 : Exported instances
+RUN-1001 : Exported nets
+RUN-1001 : Exported buses
+RUN-1001 : Exported models
+RUN-1001 : Exported congestions
+RUN-1001 : Exported violations
+RUN-1001 : Exported IO constraints
+RUN-1001 : Exported Inst constraints
+RUN-1003 : finish command "export_db CortexM3_rtl.db" in  2.476496s wall, 4.078125s user + 0.046875s system = 4.125000s CPU (166.6%)
+
+RUN-1004 : used memory is 1062 MB, reserved memory is 1084 MB, peak memory is 1510 MB
+RUN-1002 : start command "read_sdc"
+USR-1002 : read_sdc file_name -help -h -eco
+USR-1009 : NO module with IP_SDC ...
+RUN-1104 : Import SDC file  finished, there are 0 nets kept by constraints.
+RUN-1002 : start command "optimize_gate -maparea CortexM3_gate.area"
+RUN-1001 : Open license file D:/Anlogic/TD5.6.56362/license/Anlogic.lic
+RUN-1001 : Print Global Property
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :        Parameters        |  Settings  |  Default Values  |  Note  
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :          message         |  standard  |     standard     |        
+RUN-1001 :   mixed_pack_place_flow  |     on     |        on        |        
+RUN-1001 :        syn_ip_flow       |    off     |       off        |        
+RUN-1001 :          thread          |    auto    |       auto       |        
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 : Print Gate Property
+RUN-1001 : ------------------------------------------------------------------
+RUN-1001 :          Parameters         |  Settings  |  Default Values  |  Note  
+RUN-1001 : ------------------------------------------------------------------
+RUN-1001 :         cascade_dsp         |    off     |       off        |        
+RUN-1001 :         cascade_eram        |    off     |       off        |        
+RUN-1001 :        gate_sim_model       |    off     |       off        |        
+RUN-1001 :        map_sim_model        |    off     |       off        |        
+RUN-1001 :         map_strategy        |     1      |        1         |        
+RUN-1001 :           opt_area          |   medium   |      medium      |        
+RUN-1001 :          opt_timing         |    auto    |       auto       |        
+RUN-1001 :         pack_effort         |   medium   |      medium      |        
+RUN-1001 :      pack_lslice_ripple     |     on     |        on        |        
+RUN-1001 :   pack_lslice_ripple_ratio  |    0.5     |       0.5        |        
+RUN-1001 :        pack_seq_in_io       |    auto    |       auto       |        
+RUN-1001 :        ph1_mux_ratio        |    1.0     |       1.0        |        
+RUN-1001 :            report           |  standard  |     standard     |        
+RUN-1001 :           retiming          |    off     |       off        |        
+RUN-1001 : ------------------------------------------------------------------
+SYN-6019 WARNING: None clock-capable pad connect with clk net SWCLK, will suffer from clock performance degradation.
+SYN-2001 : Map 35 IOs to PADs
+SYN-1032 : 83379/0 useful/useless nets, 82365/1 useful/useless insts
+RUN-1002 : start command "update_pll_param -module CortexM3"
+SYN-2501 : Processed 0 LOGIC_BUF instances.
+SYN-2501 : 2 BUFG to GCLK
+SYN-2531 : Dram(DTCM/ramread0_syn_15) write 16384x8, read 16384x8
+SYN-2531 : Dram(DTCM/ramread0_syn_20) write 16384x8, read 16384x8
+SYN-2531 : Dram(DTCM/ramread0_syn_25) write 16384x8, read 16384x8
+SYN-2531 : Dram(DTCM/ramread0_syn_30) write 16384x8, read 16384x8
+SYN-2531 : Dram(ITCM/ramread0_syn_15) write 16384x8, read 16384x8
+SYN-2531 : Dram(ITCM/ramread0_syn_20) write 16384x8, read 16384x8
+SYN-2531 : Dram(ITCM/ramread0_syn_25) write 16384x8, read 16384x8
+SYN-2531 : Dram(ITCM/ramread0_syn_30) write 16384x8, read 16384x8
+SYN-2571 : Map 1 macro multiplier
+SYN-2571 : Optimize after map_dsp, round 1
+SYN-1032 : 105988/75 useful/useless nets, 90594/0 useful/useless insts
+SYN-1016 : Merged 2025 instances.
+SYN-2571 : Optimize after map_dsp, round 1, 2100 better
+SYN-2571 : Optimize after map_dsp, round 2
+SYN-2571 : Optimize after map_dsp, round 2, 0 better
+SYN-1032 : 103950/121 useful/useless nets, 88568/1 useful/useless insts
+SYN-1001 : Throwback 590 control mux instances
+SYN-1001 : Convert 3 adder
+RUN-1002 : start command "start_timer -prepack"
+RUN-1003 : finish command "start_timer -prepack" in  2.873094s wall, 2.781250s user + 0.093750s system = 2.875000s CPU (100.1%)
+
+RUN-1004 : used memory is 1422 MB, reserved memory is 1449 MB, peak memory is 1510 MB
+SYN-2501 : Optimize round 1
+SYN-1032 : 105994/123 useful/useless nets, 90749/54 useful/useless insts
+SYN-1016 : Merged 293 instances.
+SYN-2501 : Optimize round 1, 875 better
+SYN-2501 : Optimize round 2
+SYN-2501 : Optimize round 2, 0 better
+SYN-2501 : Map 46 macro adder
+SYN-3001 : Mapper mapped 26 instances into 4 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 26 instances into 4 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 7 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 7 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 15 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 15 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 15 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 15 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 15 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 15 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 15 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 15 instances into 1 LUTs, name keeping = 100%.
+SYN-2501 : Inferred 10 ROM instances
+SYN-3007 : Map mux "DTCM/ramread0_syn_9251" with ph1 mux
+SYN-3007 : Map mux "DTCM/ramread0_syn_9252" with ph1 mux
+SYN-3007 : Map mux "DTCM/ramread0_syn_9253" with ph1 mux
+SYN-3007 : Map mux "DTCM/ramread0_syn_9254" with ph1 mux
+SYN-3007 : Map mux "DTCM/ramread0_syn_9255" with ph1 mux
+SYN-3007 : Map mux "DTCM/ramread0_syn_9256" with ph1 mux
+SYN-3007 : Map mux "DTCM/ramread0_syn_9257" with ph1 mux
+SYN-3007 : Map mux "DTCM/ramread0_syn_9258" with ph1 mux
+SYN-3007 : Map mux "DTCM/ramread0_syn_9259" with ph1 mux
+SYN-3007 : Map mux "DTCM/ramread0_syn_9260" with ph1 mux
+SYN-3007 : Map mux "DTCM/ramread0_syn_9261" with ph1 mux
+SYN-3007 : Map mux "DTCM/ramread0_syn_9262" with ph1 mux
+SYN-3007 : Map mux "DTCM/ramread0_syn_9263" with ph1 mux
+SYN-3007 : Map mux "DTCM/ramread0_syn_9264" with ph1 mux
+SYN-3007 : Map mux "DTCM/ramread0_syn_9265" with ph1 mux
+SYN-3007 : Map mux "DTCM/ramread0_syn_9266" with ph1 mux
+SYN-3007 : Map mux "DTCM/ramread0_syn_9267" with ph1 mux
+SYN-3007 : Map mux "DTCM/ramread0_syn_9268" with ph1 mux
+SYN-3007 : Map mux "DTCM/ramread0_syn_9269" with ph1 mux
+SYN-3007 : Map mux "DTCM/ramread0_syn_9270" with ph1 mux
+SYN-3007 : Map mux "DTCM/ramread0_syn_9271" with ph1 mux
+SYN-3007 : Map mux "DTCM/ramread0_syn_9272" with ph1 mux
+SYN-3007 : Map mux "DTCM/ramread0_syn_9273" with ph1 mux
+SYN-3007 : Map mux "DTCM/ramread0_syn_9274" with ph1 mux
+SYN-3007 : Map mux "DTCM/ramread0_syn_9275" with ph1 mux
+SYN-3007 : Map mux "DTCM/ramread0_syn_9276" with ph1 mux
+SYN-3007 : Map mux "DTCM/ramread0_syn_9277" with ph1 mux
+SYN-3007 : Map mux "DTCM/ramread0_syn_9278" with ph1 mux
+SYN-3007 : Map mux "DTCM/ramread0_syn_9279" with ph1 mux
+SYN-3007 : Map mux "DTCM/ramread0_syn_9280" with ph1 mux
+SYN-3007 : Map mux "DTCM/ramread0_syn_9281" with ph1 mux
+SYN-3007 : Map mux "DTCM/ramread0_syn_9282" with ph1 mux
+SYN-3007 : Map mux "ITCM/ramread0_syn_9251" with ph1 mux
+SYN-3007 : Map mux "ITCM/ramread0_syn_9252" with ph1 mux
+SYN-3007 : Map mux "ITCM/ramread0_syn_9253" with ph1 mux
+SYN-3007 : Map mux "ITCM/ramread0_syn_9254" with ph1 mux
+SYN-3007 : Map mux "ITCM/ramread0_syn_9255" with ph1 mux
+SYN-3007 : Map mux "ITCM/ramread0_syn_9256" with ph1 mux
+SYN-3007 : Map mux "ITCM/ramread0_syn_9257" with ph1 mux
+SYN-3007 : Map mux "ITCM/ramread0_syn_9258" with ph1 mux
+SYN-3007 : Map mux "ITCM/ramread0_syn_9259" with ph1 mux
+SYN-3007 : Map mux "ITCM/ramread0_syn_9260" with ph1 mux
+SYN-3007 : Map mux "ITCM/ramread0_syn_9261" with ph1 mux
+SYN-3007 : Map mux "ITCM/ramread0_syn_9262" with ph1 mux
+SYN-3007 : Map mux "ITCM/ramread0_syn_9263" with ph1 mux
+SYN-3007 : Map mux "ITCM/ramread0_syn_9264" with ph1 mux
+SYN-3007 : Map mux "ITCM/ramread0_syn_9265" with ph1 mux
+SYN-3007 : Map mux "ITCM/ramread0_syn_9266" with ph1 mux
+SYN-3007 : Map mux "ITCM/ramread0_syn_9267" with ph1 mux
+SYN-3007 : Map mux "ITCM/ramread0_syn_9268" with ph1 mux
+SYN-3007 : Map mux "ITCM/ramread0_syn_9269" with ph1 mux
+SYN-3007 : Map mux "ITCM/ramread0_syn_9270" with ph1 mux
+SYN-3007 : Map mux "ITCM/ramread0_syn_9271" with ph1 mux
+SYN-3007 : Map mux "ITCM/ramread0_syn_9272" with ph1 mux
+SYN-3007 : Map mux "ITCM/ramread0_syn_9273" with ph1 mux
+SYN-3007 : Map mux "ITCM/ramread0_syn_9274" with ph1 mux
+SYN-3007 : Map mux "ITCM/ramread0_syn_9275" with ph1 mux
+SYN-3007 : Map mux "ITCM/ramread0_syn_9276" with ph1 mux
+SYN-3007 : Map mux "ITCM/ramread0_syn_9277" with ph1 mux
+SYN-3007 : Map mux "ITCM/ramread0_syn_9278" with ph1 mux
+SYN-3007 : Map mux "ITCM/ramread0_syn_9279" with ph1 mux
+SYN-3007 : Map mux "ITCM/ramread0_syn_9280" with ph1 mux
+SYN-3007 : Map mux "ITCM/ramread0_syn_9281" with ph1 mux
+SYN-3007 : Map mux "ITCM/ramread0_syn_9282" with ph1 mux
+SYN-1019 : Optimized 60 mux instances.
+SYN-1016 : Merged 88 instances.
+SYN-1032 : 114338/81 useful/useless nets, 99093/0 useful/useless insts
+RUN-1002 : start command "start_timer -prepack"
+TMR-2505 : Start building timing graph for model CortexM3.
+TMR-2506 : Build timing graph completely. Port num: 16, tpin num: 355791, tnet num: 114336, tinst num: 99091, tnode num: 369395, tedge num: 440387.
+TMR-2508 : Levelizing timing graph completed, there are 309 levels in total.
+TMR-2501 : Timing graph initialized successfully.
+RUN-1003 : finish command "start_timer -prepack" in  3.197818s wall, 3.109375s user + 0.078125s system = 3.187500s CPU (99.7%)
+
+RUN-1004 : used memory is 1454 MB, reserved memory is 1496 MB, peak memory is 1510 MB
+TMR-2503 : Start to update net delay, extr mode = 2.
+TMR-2504 : Update delay of 114336 nets completely.
+TMR-2502 : Annotate delay completely, extr mode = 2.
+TMR-3001 : Initiate 0 clocks from SDC.
+TMR-3004 : Map sdc constraints, there are 0 constraints in total.
+TMR-3003 : Constraints initiated successfully.
+TMR-3501 : Forward propagation: start to calculate arrival time...
+TMR-3502 : Backward propagation: start to calculate required time...
+TMR-3503 : Timing propagation completes.
+SYN-3001 : Running gate level optimization.
+SYN-2581 : Mapping with K=6, #lut = 17839 (4.55), #lev = 50 (24.28)
+SYN-2551 : Post LUT mapping optimization.
+SYN-2581 : Mapping with K=6, #lut = 17406 (4.22), #lev = 46 (23.09)
+SYN-3001 : Logic optimization runtime opt =  23.36 sec, map =   0.00 sec
+SYN-3001 : Mapper mapped 83090 instances into 17413 LUTs, name keeping = 46%.
+SYN-3001 : Mapper removed 2 lut buffers
+RUN-1002 : start command "report_area -file CortexM3_gate.area"
+RUN-1001 : standard
+***Report Model: CortexM3 Device: PH1A60GEG324***
+
+IO Statistics
+#IO                        35
+  #input                    8
+  #output                  26
+  #inout                    1
+
+Utilization Statistics
+#lut                    22601
+  #lut1                     5
+  #lut2                  3546
+  #lut3                  2640
+  #lut4                  2608
+  #lut5                  3668
+  #lut6                  9306
+  #1-bit adder            828
+#reg                     5457   out of  78720    6.93%
+  #dff                   5457
+  #latch                    0
+#f7mux                   2176   out of  19680   11.06%
+#f8mux                   1088   out of   9840   11.06%
+#dsp                        3   out of    120    2.50%
+#eram                       0   out of    158    0.00%
+  #eram20k                  0
+  #fifo20k                  0
+#dram                    2048
+#pad                       35   out of    211   16.59%
+  #ireg                     0
+  #oreg                     0
+  #treg                     0
+#pll                        1   out of     12    8.33%
+
+Report Hierarchy Area:
++------------------------------------------------------------------------------------------------------------------------------------------------------+
+|Instance                     |Module               |lut     |ripple  |seq     |eram    |dsp     |dram    |shifter |pll     |serdes  |pcie    |ddr     |
++------------------------------------------------------------------------------------------------------------------------------------------------------+
+|top                          |CortexM3             |21773   |828     |5457    |0       |3       |2048    |0       |1       |0       |0       |0       |
+|  AhbDtcm                    |cmsdk_ahb_to_sram    |50      |0       |53      |0       |0       |0       |0       |0       |0       |0       |0       |
+|  AhbItcm                    |cmsdk_ahb_to_sram    |32      |0       |53      |0       |0       |0       |0       |0       |0       |0       |0       |
+|  AhbMtx                     |AhbMtx               |40      |0       |125     |0       |0       |0       |0       |0       |0       |0       |0       |
+|    u_AhbMtxInStg_0          |AhbMtxInStg          |2       |0       |30      |0       |0       |0       |0       |0       |0       |0       |0       |
+|    u_AhbMtxInStg_1          |AhbMtxInStg          |2       |0       |34      |0       |0       |0       |0       |0       |0       |0       |0       |
+|    u_AhbMtxInStg_2          |AhbMtxInStg          |4       |0       |38      |0       |0       |0       |0       |0       |0       |0       |0       |
+|    u_ahbmtxdecs0            |AhbMtxDecS0          |3       |0       |3       |0       |0       |0       |0       |0       |0       |0       |0       |
+|      u_AhbMtx_default_slave |AhbMtx_default_slave |2       |0       |2       |0       |0       |0       |0       |0       |0       |0       |0       |
+|    u_ahbmtxdecs1            |AhbMtxDecS1          |3       |0       |3       |0       |0       |0       |0       |0       |0       |0       |0       |
+|      u_AhbMtx_default_slave |AhbMtx_default_slave |2       |0       |2       |0       |0       |0       |0       |0       |0       |0       |0       |
+|    u_ahbmtxdecs2            |AhbMtxDecS2          |5       |0       |5       |0       |0       |0       |0       |0       |0       |0       |0       |
+|      u_AhbMtx_default_slave |AhbMtx_default_slave |2       |0       |2       |0       |0       |0       |0       |0       |0       |0       |0       |
+|    u_ahbmtxoutstgm0_0       |AhbMtxOutStgM0       |6       |0       |3       |0       |0       |0       |0       |0       |0       |0       |0       |
+|      u_output_arb           |AhbMtxArbM0          |6       |0       |2       |0       |0       |0       |0       |0       |0       |0       |0       |
+|    u_ahbmtxoutstgm1_1       |AhbMtxOutStgM1       |5       |0       |4       |0       |0       |0       |0       |0       |0       |0       |0       |
+|      u_output_arb           |AhbMtxArbM1          |4       |0       |2       |0       |0       |0       |0       |0       |0       |0       |0       |
+|    u_ahbmtxoutstgm2_2       |AhbMtxOutStgM2       |10      |0       |5       |0       |0       |0       |0       |0       |0       |0       |0       |
+|      u_output_arb           |AhbMtxArbM2          |7       |0       |2       |0       |0       |0       |0       |0       |0       |0       |0       |
+|  ApbBridge                  |cmsdk_ahb_to_apb     |168     |0       |51      |0       |0       |0       |0       |0       |0       |0       |0       |
+|  Buzzer                     |custom_apb_buzzer    |1       |0       |1       |0       |0       |0       |0       |0       |0       |0       |0       |
+|  DTCM                       |cmsdk_fpga_sram      |3468    |0       |15      |0       |0       |1024    |0       |0       |0       |0       |0       |
+|  ITCM                       |cmsdk_fpga_sram      |3531    |0       |15      |0       |0       |1024    |0       |0       |0       |0       |0       |
+|  Key                        |custom_apb_key       |5       |0       |4       |0       |0       |0       |0       |0       |0       |0       |0       |
+|  LCD                        |custom_apb_lcd       |30      |0       |22      |0       |0       |0       |0       |0       |0       |0       |0       |
+|  LED                        |custom_apb_led       |3       |0       |2       |0       |0       |0       |0       |0       |0       |0       |0       |
+|  SynClockTD$PLL             |PLL                  |0       |0       |0       |0       |0       |0       |0       |1       |0       |0       |0       |
+|  Timer                      |cmsdk_apb_timer      |68      |33      |77      |0       |0       |0       |0       |0       |0       |0       |0       |
+|  UART                       |cmsdk_apb_uart       |120     |17      |116     |0       |0       |0       |0       |0       |0       |0       |0       |
+|  ulogic                     |cortexm3ds_logic     |14255   |778     |4921    |0       |3       |0       |0       |0       |0       |0       |0       |
++------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+SYN-1001 : Packing model "CortexM3" ...
+SYN-4010 : Pack lib has 84 rtl pack models with 55 top pack blocks
+SYN-1014 : Optimize round 1
+SYN-1032 : 48605/3 useful/useless nets, 33410/4 useful/useless insts
+SYN-1015 : Optimize round 1, 7 better
+SYN-1014 : Optimize round 2
+SYN-1015 : Optimize round 2, 0 better
+SYN-4002 : Packing 5455 DFF/LATCH to SEQ ...
+SYN-1001 : Remove 31 carry adders
+SYN-4009 : Pack 30 carry chain into lslice
+SYN-4012 : Packed 0 FxMUX
+RUN-1003 : finish command "optimize_gate -maparea CortexM3_gate.area" in  110.734587s wall, 109.859375s user + 0.796875s system = 110.656250s CPU (99.9%)
+
+RUN-1004 : used memory is 1312 MB, reserved memory is 1405 MB, peak memory is 1578 MB
+RUN-1002 : start command "legalize_phy_inst"
+SYN-1011 : Flatten model CortexM3
+SYN-1032 : 70617/0 useful/useless nets, 47423/164 useful/useless insts
+RUN-1002 : start command "export_db CortexM3_gate.db"
+RUN-1001 : Exported /
+RUN-1001 : Exported flow parameters
+RUN-1001 : Exported libs
+RUN-1001 : Exported entities
+RUN-1001 : Exported ports
+RUN-1001 : Exported pins
+RUN-1001 : Exported instances
+RUN-1001 : Exported nets
+RUN-1001 : Exported buses
+RUN-1001 : Exported models
+RUN-1001 : Exported congestions
+RUN-1001 : Exported violations
+RUN-1001 : Exported timing constraints
+RUN-1001 : Exported IO constraints
+RUN-1001 : Exported Inst constraints
+RUN-1003 : finish command "export_db CortexM3_gate.db" in  6.113974s wall, 10.640625s user + 0.078125s system = 10.718750s CPU (175.3%)
+
+RUN-1004 : used memory is 1358 MB, reserved memory is 1384 MB, peak memory is 1578 MB
+RUN-1002 : start command "backup_run_log run.log ../.logs/syn_1/td_20230719_232703.log"

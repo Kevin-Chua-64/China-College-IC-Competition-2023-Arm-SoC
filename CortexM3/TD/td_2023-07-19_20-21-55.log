@@ -1,0 +1,508 @@
+============================================================
+   Tang Dynasty, V5.6.56362
+   Copyright (c) 2012-2022 Anlogic
+   Executable = D:/Anlogic/TD5.6.56362/bin/td.exe
+   Built at =   19:51:00 Jul 25 2022
+   Run by =     DELL
+   Run Date =   Wed Jul 19 20:21:55 2023
+
+   Run on =     DESKTOP-CF55MT9
+============================================================
+ARC-1001 : Device Initialization.
+ARC-1001 : ---------------------------------------------------------------
+ARC-1001 :           OPTION          |          IO          |   SETTING   
+ARC-1001 : ---------------------------------------------------------------
+ARC-1001 :   non_jtag_persist(none)  |        36 IOs        |    gpio    
+ARC-1001 :            jtag           |  P8/E10/E12/E11/E13  |  dedicate  
+ARC-1001 : ---------------------------------------------------------------
+RUN-1003 : finish command "import_device ph1_60.db -package PH1A60GEG324" in  13.688909s wall, 13.343750s user + 0.546875s system = 13.890625s CPU (101.5%)
+
+RUN-1004 : used memory is 702 MB, reserved memory is 657 MB, peak memory is 702 MB
+RUN-1001 : Print Global Property
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :        Parameters        |  Settings  |  Default Values  |  Note  
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :          message         |  standard  |     standard     |        
+RUN-1001 :   mixed_pack_place_flow  |     on     |        on        |        
+RUN-1001 :        syn_ip_flow       |    off     |       off        |        
+RUN-1001 :          thread          |    auto    |       auto       |        
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 : Print Design Property
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :   default_reg_initial   |    auto    |       auto       |        
+RUN-1001 :        infer_add        |     on     |        on        |        
+RUN-1001 :        infer_fsm        |    off     |       off        |        
+RUN-1001 :        infer_mult       |     on     |        on        |        
+RUN-1001 :        infer_ram        |     on     |        on        |        
+RUN-1001 :        infer_reg        |     on     |        on        |        
+RUN-1001 :   infer_reg_init_value  |     on     |        on        |        
+RUN-1001 :        infer_rom        |     on     |        on        |        
+RUN-1001 :      infer_shifter      |     on     |        on        |        
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 : Print Rtl Property
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :       compress_add      |   ripple   |      ripple      |        
+RUN-1001 :        elf_sload        |    off     |       off        |        
+RUN-1001 :       fix_undriven      |     0      |        0         |        
+RUN-1001 :         flatten         |    off     |       off        |        
+RUN-1001 :       gate_sharing      |     on     |        on        |        
+RUN-1001 :    hdl_warning_level    |   normal   |      normal      |        
+RUN-1001 :   impl_internal_tribuf  |     on     |        on        |        
+RUN-1001 :      impl_set_reset     |     on     |        on        |        
+RUN-1001 :        infer_gsr        |    off     |       off        |        
+RUN-1001 :      keep_hierarchy     |    auto    |       auto       |        
+RUN-1001 :        max_fanout       |    9999    |       9999       |        
+RUN-1001 :      max_oh2bin_len     |     10     |        10        |        
+RUN-1001 :       merge_equal       |     on     |        on        |        
+RUN-1001 :       merge_equiv       |     on     |        on        |        
+RUN-1001 :        merge_mux        |    off     |       off        |        
+RUN-1001 :     min_control_set     |     8      |        8         |        
+RUN-1001 :      min_ripple_len     |    auto    |       auto       |        
+RUN-1001 :       oh2bin_ratio      |    0.08    |       0.08       |        
+RUN-1001 :     opt_adder_fanout    |     on     |        on        |        
+RUN-1001 :        opt_arith        |     on     |        on        |        
+RUN-1001 :       opt_big_gate      |    off     |       off        |        
+RUN-1001 :        opt_const        |     on     |        on        |        
+RUN-1001 :      opt_const_mult     |     on     |        on        |        
+RUN-1001 :       opt_lessthan      |     on     |        on        |        
+RUN-1001 :         opt_mux         |    off     |       off        |        
+RUN-1001 :         opt_ram         |    high    |       high       |        
+RUN-1001 :      rtl_sim_model      |    off     |       off        |        
+RUN-1001 :         seq_syn         |     on     |        on        |        
+RUN-1001 : --------------------------------------------------------------
+HDL-1007 : analyze verilog file ../RTL/CortexM3_TD.v
+HDL-1007 : undeclared symbol 'TXEN', assumed default net type 'wire' in ../RTL/CortexM3_TD.v(788)
+HDL-1007 : undeclared symbol 'BAUDTICK', assumed default net type 'wire' in ../RTL/CortexM3_TD.v(789)
+HDL-1007 : analyze verilog file ../RTL/bus/AhbMtx/AhbMtx.v
+HDL-1007 : analyze verilog file ../RTL/bus/AhbMtx/AhbMtxArbM0.v
+HDL-1007 : analyze verilog file ../RTL/bus/AhbMtx/AhbMtxArbM1.v
+HDL-1007 : analyze verilog file ../RTL/bus/AhbMtx/AhbMtxArbM2.v
+HDL-1007 : analyze verilog file ../RTL/bus/AhbMtx/AhbMtxDecS0.v
+HDL-1007 : analyze verilog file ../RTL/bus/AhbMtx/AhbMtxDecS1.v
+HDL-1007 : analyze verilog file ../RTL/bus/AhbMtx/AhbMtxDecS2.v
+HDL-1007 : analyze verilog file ../RTL/bus/AhbMtx/AhbMtxInStg.v
+HDL-1007 : analyze verilog file ../RTL/bus/AhbMtx/AhbMtxOutStgM0.v
+HDL-1007 : analyze verilog file ../RTL/bus/AhbMtx/AhbMtxOutStgM1.v
+HDL-1007 : analyze verilog file ../RTL/bus/AhbMtx/AhbMtxOutStgM2.v
+HDL-1007 : analyze verilog file ../RTL/bus/AhbMtx/AhbMtx_default_slave.v
+HDL-1007 : analyze verilog file ../RTL/bus/Apb/cmsdk_ahb_to_apb.v
+HDL-1007 : analyze verilog file ../RTL/bus/Apb/cmsdk_apb_slave_mux.v
+HDL-1007 : analyze verilog file ../RTL/core/cortexm3ds_logic.v
+HDL-1007 : analyze verilog file ../RTL/peripheral/buzzer/custom_apb_buzzer.v
+HDL-1007 : undeclared symbol 'read_en', assumed default net type 'wire' in ../RTL/peripheral/buzzer/custom_apb_buzzer.v(36)
+HDL-1007 : undeclared symbol 'write_en', assumed default net type 'wire' in ../RTL/peripheral/buzzer/custom_apb_buzzer.v(37)
+HDL-1007 : analyze verilog file ../RTL/peripheral/key/custom_apb_key.v
+HDL-1007 : undeclared symbol 'read_en', assumed default net type 'wire' in ../RTL/peripheral/key/custom_apb_key.v(36)
+HDL-1007 : analyze verilog file ../RTL/peripheral/lcd/custom_apb_lcd.v
+HDL-1007 : undeclared symbol 'read_en', assumed default net type 'wire' in ../RTL/peripheral/lcd/custom_apb_lcd.v(42)
+HDL-1007 : undeclared symbol 'write_en', assumed default net type 'wire' in ../RTL/peripheral/lcd/custom_apb_lcd.v(43)
+HDL-1007 : analyze verilog file ../RTL/peripheral/led/custom_apb_led.v
+HDL-1007 : undeclared symbol 'read_en', assumed default net type 'wire' in ../RTL/peripheral/led/custom_apb_led.v(36)
+HDL-1007 : undeclared symbol 'write_en', assumed default net type 'wire' in ../RTL/peripheral/led/custom_apb_led.v(37)
+HDL-1007 : analyze verilog file ../RTL/peripheral/sram/cmsdk_ahb_to_sram.v
+HDL-1007 : analyze verilog file ../RTL/peripheral/sram/cmsdk_fpga_sram.v
+HDL-1007 : analyze verilog file ../RTL/peripheral/timer/cmsdk_apb_timer.v
+HDL-1007 : analyze verilog file ../RTL/peripheral/uart/cmsdk_apb_uart.v
+HDL-1007 : analyze verilog file al_ip/PLL.v
+HDL-1007 : undeclared symbol 'open', assumed default net type 'wire' in al_ip/PLL.v(76)
+HDL-8007 ERROR: cannot find port 'areset' on this module in ../RTL/CortexM3_TD.v(57)
+HDL-8007 ERROR: cannot find port 'inclk0' on this module in ../RTL/CortexM3_TD.v(58)
+HDL-8007 ERROR: cannot find port 'c0' on this module in ../RTL/CortexM3_TD.v(59)
+RUN-1001 : Print Global Property
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :        Parameters        |  Settings  |  Default Values  |  Note  
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :          message         |  standard  |     standard     |        
+RUN-1001 :   mixed_pack_place_flow  |     on     |        on        |        
+RUN-1001 :        syn_ip_flow       |    off     |       off        |        
+RUN-1001 :          thread          |    auto    |       auto       |        
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 : Print Design Property
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :   default_reg_initial   |    auto    |       auto       |        
+RUN-1001 :        infer_add        |     on     |        on        |        
+RUN-1001 :        infer_fsm        |    off     |       off        |        
+RUN-1001 :        infer_mult       |     on     |        on        |        
+RUN-1001 :        infer_ram        |     on     |        on        |        
+RUN-1001 :        infer_reg        |     on     |        on        |        
+RUN-1001 :   infer_reg_init_value  |     on     |        on        |        
+RUN-1001 :        infer_rom        |     on     |        on        |        
+RUN-1001 :      infer_shifter      |     on     |        on        |        
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 : Print Rtl Property
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :       compress_add      |   ripple   |      ripple      |        
+RUN-1001 :        elf_sload        |    off     |       off        |        
+RUN-1001 :       fix_undriven      |     0      |        0         |        
+RUN-1001 :         flatten         |    off     |       off        |        
+RUN-1001 :       gate_sharing      |     on     |        on        |        
+RUN-1001 :    hdl_warning_level    |   normal   |      normal      |        
+RUN-1001 :   impl_internal_tribuf  |     on     |        on        |        
+RUN-1001 :      impl_set_reset     |     on     |        on        |        
+RUN-1001 :        infer_gsr        |    off     |       off        |        
+RUN-1001 :      keep_hierarchy     |    auto    |       auto       |        
+RUN-1001 :        max_fanout       |    9999    |       9999       |        
+RUN-1001 :      max_oh2bin_len     |     10     |        10        |        
+RUN-1001 :       merge_equal       |     on     |        on        |        
+RUN-1001 :       merge_equiv       |     on     |        on        |        
+RUN-1001 :        merge_mux        |    off     |       off        |        
+RUN-1001 :     min_control_set     |     8      |        8         |        
+RUN-1001 :      min_ripple_len     |    auto    |       auto       |        
+RUN-1001 :       oh2bin_ratio      |    0.08    |       0.08       |        
+RUN-1001 :     opt_adder_fanout    |     on     |        on        |        
+RUN-1001 :        opt_arith        |     on     |        on        |        
+RUN-1001 :       opt_big_gate      |    off     |       off        |        
+RUN-1001 :        opt_const        |     on     |        on        |        
+RUN-1001 :      opt_const_mult     |     on     |        on        |        
+RUN-1001 :       opt_lessthan      |     on     |        on        |        
+RUN-1001 :         opt_mux         |    off     |       off        |        
+RUN-1001 :         opt_ram         |    high    |       high       |        
+RUN-1001 :      rtl_sim_model      |    off     |       off        |        
+RUN-1001 :         seq_syn         |     on     |        on        |        
+RUN-1001 : --------------------------------------------------------------
+HDL-1007 : analyze verilog file ../RTL/CortexM3_TD.v
+HDL-1007 : undeclared symbol 'TXEN', assumed default net type 'wire' in ../RTL/CortexM3_TD.v(788)
+HDL-1007 : undeclared symbol 'BAUDTICK', assumed default net type 'wire' in ../RTL/CortexM3_TD.v(789)
+HDL-1007 : analyze verilog file ../RTL/bus/AhbMtx/AhbMtx.v
+HDL-1007 : analyze verilog file ../RTL/bus/AhbMtx/AhbMtxArbM0.v
+HDL-1007 : analyze verilog file ../RTL/bus/AhbMtx/AhbMtxArbM1.v
+HDL-1007 : analyze verilog file ../RTL/bus/AhbMtx/AhbMtxArbM2.v
+HDL-1007 : analyze verilog file ../RTL/bus/AhbMtx/AhbMtxDecS0.v
+HDL-1007 : analyze verilog file ../RTL/bus/AhbMtx/AhbMtxDecS1.v
+HDL-1007 : analyze verilog file ../RTL/bus/AhbMtx/AhbMtxDecS2.v
+HDL-1007 : analyze verilog file ../RTL/bus/AhbMtx/AhbMtxInStg.v
+HDL-1007 : analyze verilog file ../RTL/bus/AhbMtx/AhbMtxOutStgM0.v
+HDL-1007 : analyze verilog file ../RTL/bus/AhbMtx/AhbMtxOutStgM1.v
+HDL-1007 : analyze verilog file ../RTL/bus/AhbMtx/AhbMtxOutStgM2.v
+HDL-1007 : analyze verilog file ../RTL/bus/AhbMtx/AhbMtx_default_slave.v
+HDL-1007 : analyze verilog file ../RTL/bus/Apb/cmsdk_ahb_to_apb.v
+HDL-1007 : analyze verilog file ../RTL/bus/Apb/cmsdk_apb_slave_mux.v
+HDL-1007 : analyze verilog file ../RTL/core/cortexm3ds_logic.v
+HDL-1007 : analyze verilog file ../RTL/peripheral/buzzer/custom_apb_buzzer.v
+HDL-1007 : undeclared symbol 'read_en', assumed default net type 'wire' in ../RTL/peripheral/buzzer/custom_apb_buzzer.v(36)
+HDL-1007 : undeclared symbol 'write_en', assumed default net type 'wire' in ../RTL/peripheral/buzzer/custom_apb_buzzer.v(37)
+HDL-1007 : analyze verilog file ../RTL/peripheral/key/custom_apb_key.v
+HDL-1007 : undeclared symbol 'read_en', assumed default net type 'wire' in ../RTL/peripheral/key/custom_apb_key.v(36)
+HDL-1007 : analyze verilog file ../RTL/peripheral/lcd/custom_apb_lcd.v
+HDL-1007 : undeclared symbol 'read_en', assumed default net type 'wire' in ../RTL/peripheral/lcd/custom_apb_lcd.v(42)
+HDL-1007 : undeclared symbol 'write_en', assumed default net type 'wire' in ../RTL/peripheral/lcd/custom_apb_lcd.v(43)
+HDL-1007 : analyze verilog file ../RTL/peripheral/led/custom_apb_led.v
+HDL-1007 : undeclared symbol 'read_en', assumed default net type 'wire' in ../RTL/peripheral/led/custom_apb_led.v(36)
+HDL-1007 : undeclared symbol 'write_en', assumed default net type 'wire' in ../RTL/peripheral/led/custom_apb_led.v(37)
+HDL-1007 : analyze verilog file ../RTL/peripheral/sram/cmsdk_ahb_to_sram.v
+HDL-1007 : analyze verilog file ../RTL/peripheral/sram/cmsdk_fpga_sram.v
+HDL-1007 : analyze verilog file ../RTL/peripheral/timer/cmsdk_apb_timer.v
+HDL-1007 : analyze verilog file ../RTL/peripheral/uart/cmsdk_apb_uart.v
+HDL-1007 : analyze verilog file al_ip/PLL.v
+HDL-1007 : undeclared symbol 'open', assumed default net type 'wire' in al_ip/PLL.v(76)
+RUN-1001 : launch_runs syn_1 -step opt_gate.
+RUN-1001 : reset_run phy_1.
+RUN-1001 : syn_1: run complete.
+RUN-1001 : open_run syn_1.
+RUN-1002 : start command "import_db D:/Desktop/CortexM3/TD/CortexM3_Runs/syn_1/CortexM3_gate.db"
+RUN-1001 : Importing database generated by Tang Dynasty, V5.6.56362.
+RUN-1001 : Database version number 46140.
+RUN-1001 : Import flow parameters
+RUN-1001 : Import timing constraints
+RUN-1001 : Import IO constraints
+RUN-1001 : Import Inst constraints
+RUN-1001 : Import design success TD_VERSION=5.6.56362 , DB_VERSION=46140
+RUN-1003 : finish command "import_db D:/Desktop/CortexM3/TD/CortexM3_Runs/syn_1/CortexM3_gate.db" in  3.677405s wall, 3.531250s user + 0.296875s system = 3.828125s CPU (104.1%)
+
+RUN-1004 : used memory is 1178 MB, reserved memory is 1146 MB, peak memory is 1192 MB
+RUN-1002 : start command "report_timing -mode ideal"
+RUN-1002 : start command "start_timer -report"
+RUN-1003 : finish command "start_timer -report" in  2.192219s wall, 2.234375s user + 0.062500s system = 2.296875s CPU (104.8%)
+
+RUN-1004 : used memory is 1382 MB, reserved memory is 1356 MB, peak memory is 1382 MB
+RUN-1002 : start command "end_timer"
+RUN-1003 : finish command "report_timing -mode ideal" in  3.050009s wall, 3.078125s user + 0.078125s system = 3.156250s CPU (103.5%)
+
+RUN-1004 : used memory is 1310 MB, reserved memory is 1310 MB, peak memory is 1395 MB
+GUI-5004 WARNING: LCD_BL_CTR has not been assigned a location ...
+GUI-5004 WARNING: LCD_CS has not been assigned a location ...
+GUI-5004 WARNING: LCD_DATA[15] has not been assigned a location ...
+GUI-5004 WARNING: LCD_DATA[14] has not been assigned a location ...
+GUI-5004 WARNING: LCD_DATA[13] has not been assigned a location ...
+GUI-5004 WARNING: LCD_DATA[12] has not been assigned a location ...
+GUI-5004 WARNING: LCD_DATA[11] has not been assigned a location ...
+GUI-5004 WARNING: LCD_DATA[10] has not been assigned a location ...
+GUI-5004 WARNING: LCD_DATA[9] has not been assigned a location ...
+GUI-5004 WARNING: LCD_DATA[8] has not been assigned a location ...
+GUI-5004 Similar messages will be suppressed.
+RUN-1001 : reset_run syn_1 phy_1.
+RUN-1001 : launch_runs syn_1 phy_1  -jobs 6.
+RUN-1001 : syn_1: run complete.
+RUN-1001 : phy_1: run complete.
+RUN-1001 : open_run phy_1.
+RUN-1002 : start command "import_db D:/Desktop/CortexM3/TD/CortexM3_Runs/phy_1/CortexM3_pr.db"
+RUN-1001 : Importing database generated by Tang Dynasty, V5.6.56362.
+RUN-1001 : Database version number 46140.
+RUN-1001 : Import flow parameters
+RUN-1001 : Constructing routing connections.
+RUN-1001 : Import timing constraints
+RUN-1001 : Import IO constraints
+RUN-1001 : Import Inst constraints
+RUN-1001 : Import design success TD_VERSION=5.6.56362 , DB_VERSION=46140
+RUN-1003 : finish command "import_db D:/Desktop/CortexM3/TD/CortexM3_Runs/phy_1/CortexM3_pr.db" in  9.627038s wall, 20.937500s user + 1.562500s system = 22.500000s CPU (233.7%)
+
+RUN-1004 : used memory is 1476 MB, reserved memory is 2073 MB, peak memory is 1493 MB
+RUN-1002 : start command "report_timing"
+RUN-1002 : start command "start_timer -report"
+RUN-1003 : finish command "start_timer -report" in  6.370305s wall, 6.312500s user + 0.281250s system = 6.593750s CPU (103.5%)
+
+RUN-1004 : used memory is 1709 MB, reserved memory is 2265 MB, peak memory is 1709 MB
+RUN-1002 : start command "end_timer"
+RUN-1003 : finish command "report_timing" in  8.472884s wall, 8.390625s user + 0.296875s system = 8.687500s CPU (102.5%)
+
+RUN-1004 : used memory is 1738 MB, reserved memory is 2294 MB, peak memory is 1743 MB
+RUN-1002 : start command "download -bit CortexM3_Runs\phy_1\CortexM3.bit -mode jtag -spd 7 -sec 64 -cable 0"
+PRG-2014 : Chip validation success: PH1A60
+RUN-1003 : finish command "download -bit CortexM3_Runs\phy_1\CortexM3.bit -mode jtag -spd 7 -sec 64 -cable 0" in  21.427902s wall, 1.109375s user + 0.875000s system = 1.984375s CPU (9.3%)
+
+RUN-1004 : used memory is 1692 MB, reserved memory is 2313 MB, peak memory is 1754 MB
+GUI-1001 : Download success!
+HDL-1007 : analyze verilog file ../RTL/CortexM3_TD.v
+HDL-1007 : undeclared symbol 'TXEN', assumed default net type 'wire' in ../RTL/CortexM3_TD.v(788)
+HDL-1007 : undeclared symbol 'BAUDTICK', assumed default net type 'wire' in ../RTL/CortexM3_TD.v(789)
+RUN-1001 : reset_run syn_1 phy_1.
+GUI-6001 WARNING: File D:/Desktop/CortexM3/TD/CortexM3_Runs/phy_1/CortexM3.bit does not exist!
+RUN-1001 : launch_runs syn_1 phy_1  -jobs 6.
+RUN-1001 : syn_1: run complete.
+RUN-1001 : phy_1: run complete.
+RUN-1001 : open_run phy_1.
+RUN-1002 : start command "import_db D:/Desktop/CortexM3/TD/CortexM3_Runs/phy_1/CortexM3_pr.db"
+RUN-1001 : Importing database generated by Tang Dynasty, V5.6.56362.
+RUN-1001 : Database version number 46140.
+RUN-1001 : Import flow parameters
+RUN-1001 : Constructing routing connections.
+RUN-1001 : Import timing constraints
+RUN-1001 : Import IO constraints
+RUN-1001 : Import Inst constraints
+RUN-1001 : Import design success TD_VERSION=5.6.56362 , DB_VERSION=46140
+RUN-1003 : finish command "import_db D:/Desktop/CortexM3/TD/CortexM3_Runs/phy_1/CortexM3_pr.db" in  12.860203s wall, 23.203125s user + 3.125000s system = 26.328125s CPU (204.7%)
+
+RUN-1004 : used memory is 1444 MB, reserved memory is 2077 MB, peak memory is 1754 MB
+RUN-1002 : start command "report_timing"
+RUN-1002 : start command "start_timer -report"
+RUN-1003 : finish command "start_timer -report" in  6.565666s wall, 7.218750s user + 0.390625s system = 7.609375s CPU (115.9%)
+
+RUN-1004 : used memory is 1680 MB, reserved memory is 2268 MB, peak memory is 1754 MB
+RUN-1002 : start command "end_timer"
+RUN-1003 : finish command "report_timing" in  8.730648s wall, 9.359375s user + 0.468750s system = 9.828125s CPU (112.6%)
+
+RUN-1004 : used memory is 1697 MB, reserved memory is 2279 MB, peak memory is 1754 MB
+RUN-1002 : start command "download -bit CortexM3_Runs\phy_1\M3.bit -mode jtag -spd 7 -sec 64 -cable 0"
+PRG-2014 : Chip validation success: PH1A60
+RUN-1003 : finish command "download -bit CortexM3_Runs\phy_1\M3.bit -mode jtag -spd 7 -sec 64 -cable 0" in  21.407625s wall, 1.218750s user + 0.953125s system = 2.171875s CPU (10.1%)
+
+RUN-1004 : used memory is 1692 MB, reserved memory is 2298 MB, peak memory is 1754 MB
+GUI-1001 : Download success!
+RUN-1002 : start command "download -bit CortexM3_Runs\phy_1\CortexM3.bit -mode jtag -spd 7 -sec 64 -cable 0"
+PRG-2014 : Chip validation success: PH1A60
+RUN-1003 : finish command "download -bit CortexM3_Runs\phy_1\CortexM3.bit -mode jtag -spd 7 -sec 64 -cable 0" in  21.953600s wall, 1.140625s user + 0.812500s system = 1.953125s CPU (8.9%)
+
+RUN-1004 : used memory is 178 MB, reserved memory is 2298 MB, peak memory is 1754 MB
+GUI-1001 : Download success!
+HDL-1007 : analyze verilog file ../RTL/CortexM3_TD.v
+HDL-1007 : undeclared symbol 'TXEN', assumed default net type 'wire' in ../RTL/CortexM3_TD.v(788)
+HDL-1007 : undeclared symbol 'BAUDTICK', assumed default net type 'wire' in ../RTL/CortexM3_TD.v(789)
+RUN-1001 : reset_run syn_1 phy_1.
+GUI-6001 WARNING: File D:/Desktop/CortexM3/TD/CortexM3_Runs/phy_1/CortexM3.bit does not exist!
+GUI-6001 WARNING: File D:/Desktop/CortexM3/TD/CortexM3_Runs/phy_1/M3.bit does not exist!
+RUN-1001 : launch_runs syn_1 phy_1  -jobs 6.
+RUN-1001 : syn_1: run complete.
+RUN-6001 WARNING: phy_1: run failed.
+RUN-1001 : open_run syn_1.
+RUN-1002 : start command "import_db D:/Desktop/CortexM3/TD/CortexM3_Runs/syn_1/CortexM3_gate.db"
+RUN-1001 : Importing database generated by Tang Dynasty, V5.6.56362.
+RUN-1001 : Database version number 46140.
+RUN-1001 : Import flow parameters
+RUN-1001 : Import timing constraints
+RUN-1001 : Import IO constraints
+RUN-1001 : Import Inst constraints
+RUN-1001 : Import design success TD_VERSION=5.6.56362 , DB_VERSION=46140
+RUN-1003 : finish command "import_db D:/Desktop/CortexM3/TD/CortexM3_Runs/syn_1/CortexM3_gate.db" in  10.620592s wall, 8.421875s user + 2.890625s system = 11.312500s CPU (106.5%)
+
+RUN-1004 : used memory is 833 MB, reserved memory is 1511 MB, peak memory is 1754 MB
+RUN-1002 : start command "report_timing -mode ideal"
+RUN-1002 : start command "start_timer -report"
+RUN-1003 : finish command "start_timer -report" in  10.792025s wall, 10.890625s user + 0.515625s system = 11.406250s CPU (105.7%)
+
+RUN-1004 : used memory is 1373 MB, reserved memory is 2022 MB, peak memory is 1754 MB
+RUN-1002 : start command "end_timer"
+RUN-1003 : finish command "report_timing -mode ideal" in  13.131559s wall, 13.218750s user + 0.640625s system = 13.859375s CPU (105.5%)
+
+RUN-1004 : used memory is 1061 MB, reserved memory is 1713 MB, peak memory is 1754 MB
+HDL-1007 : analyze verilog file ../RTL/CortexM3_TD.v
+HDL-1007 : undeclared symbol 'TXEN', assumed default net type 'wire' in ../RTL/CortexM3_TD.v(788)
+HDL-1007 : undeclared symbol 'BAUDTICK', assumed default net type 'wire' in ../RTL/CortexM3_TD.v(789)
+RUN-1001 : reset_run syn_1 phy_1.
+RUN-1001 : launch_runs syn_1 phy_1  -jobs 6.
+RUN-1002 : start command "download -bit CortexM3_Runs\phy_1\M3.bit -mode jtag -spd 7 -sec 64 -cable 0"
+PRG-2014 : Chip validation success: PH1A60
+RUN-1003 : finish command "download -bit CortexM3_Runs\phy_1\M3.bit -mode jtag -spd 7 -sec 64 -cable 0" in  21.483130s wall, 1.828125s user + 0.968750s system = 2.796875s CPU (13.0%)
+
+RUN-1004 : used memory is 1089 MB, reserved memory is 1744 MB, peak memory is 1754 MB
+GUI-1001 : Download success!
+RUN-1002 : start command "download -bit CortexM3_Runs\phy_1\M3.bit -mode jtag -spd 7 -sec 64 -cable 0"
+PRG-2014 : Chip validation success: PH1A60
+RUN-1003 : finish command "download -bit CortexM3_Runs\phy_1\M3.bit -mode jtag -spd 7 -sec 64 -cable 0" in  22.168959s wall, 4.968750s user + 2.375000s system = 7.343750s CPU (33.1%)
+
+RUN-1004 : used memory is 201 MB, reserved memory is 1746 MB, peak memory is 1754 MB
+GUI-1001 : Download success!
+RUN-1001 : phy_1: run complete.
+RUN-1001 : open_run phy_1.
+RUN-1002 : start command "import_db D:/Desktop/CortexM3/TD/CortexM3_Runs/phy_1/CortexM3_pr.db"
+RUN-1001 : Importing database generated by Tang Dynasty, V5.6.56362.
+RUN-1001 : Database version number 46140.
+RUN-1001 : Import flow parameters
+RUN-1001 : Constructing routing connections.
+RUN-1001 : Import timing constraints
+RUN-1001 : Import IO constraints
+RUN-1001 : Import Inst constraints
+RUN-1001 : Import design success TD_VERSION=5.6.56362 , DB_VERSION=46140
+RUN-1003 : finish command "import_db D:/Desktop/CortexM3/TD/CortexM3_Runs/phy_1/CortexM3_pr.db" in  16.229361s wall, 25.187500s user + 2.609375s system = 27.796875s CPU (171.3%)
+
+RUN-1004 : used memory is 1705 MB, reserved memory is 2412 MB, peak memory is 1754 MB
+RUN-1002 : start command "report_timing"
+RUN-1002 : start command "start_timer -report"
+RUN-1003 : finish command "start_timer -report" in  12.098632s wall, 11.484375s user + 0.406250s system = 11.890625s CPU (98.3%)
+
+RUN-1004 : used memory is 2081 MB, reserved memory is 2749 MB, peak memory is 2081 MB
+RUN-1002 : start command "end_timer"
+RUN-1003 : finish command "report_timing" in  15.902984s wall, 15.265625s user + 0.437500s system = 15.703125s CPU (98.7%)
+
+RUN-1004 : used memory is 2124 MB, reserved memory is 2784 MB, peak memory is 2144 MB
+RUN-1002 : start command "download -bit CortexM3_Runs\phy_1\CortexM3.bit -mode jtag -spd 7 -sec 64 -cable 0"
+PRG-2014 : Chip validation success: PH1A60
+RUN-1003 : finish command "download -bit CortexM3_Runs\phy_1\CortexM3.bit -mode jtag -spd 7 -sec 64 -cable 0" in  22.133985s wall, 1.484375s user + 0.843750s system = 2.328125s CPU (10.5%)
+
+RUN-1004 : used memory is 2146 MB, reserved memory is 2803 MB, peak memory is 2208 MB
+GUI-1001 : Download success!
+HDL-1007 : analyze verilog file ../RTL/CortexM3_TD.v
+HDL-1007 : undeclared symbol 'TXEN', assumed default net type 'wire' in ../RTL/CortexM3_TD.v(788)
+HDL-1007 : undeclared symbol 'BAUDTICK', assumed default net type 'wire' in ../RTL/CortexM3_TD.v(789)
+RUN-1001 : reset_run syn_1 phy_1.
+GUI-6001 WARNING: File D:/Desktop/CortexM3/TD/CortexM3_Runs/phy_1/M3.bit does not exist!
+GUI-6001 WARNING: File D:/Desktop/CortexM3/TD/CortexM3_Runs/phy_1/CortexM3.bit does not exist!
+RUN-1001 : launch_runs syn_1 phy_1  -jobs 6.
+RUN-1001 : syn_1: run complete.
+RUN-1001 : phy_1: run complete.
+RUN-1001 : open_run phy_1.
+RUN-1002 : start command "import_db D:/Desktop/CortexM3/TD/CortexM3_Runs/phy_1/CortexM3_pr.db"
+RUN-1001 : Importing database generated by Tang Dynasty, V5.6.56362.
+RUN-1001 : Database version number 46140.
+RUN-1001 : Import flow parameters
+RUN-1001 : Constructing routing connections.
+RUN-1001 : Import timing constraints
+RUN-1001 : Import IO constraints
+RUN-1001 : Import Inst constraints
+RUN-1001 : Import design success TD_VERSION=5.6.56362 , DB_VERSION=46140
+RUN-1003 : finish command "import_db D:/Desktop/CortexM3/TD/CortexM3_Runs/phy_1/CortexM3_pr.db" in  22.738319s wall, 26.625000s user + 4.375000s system = 31.000000s CPU (136.3%)
+
+RUN-1004 : used memory is 1788 MB, reserved memory is 2532 MB, peak memory is 2208 MB
+RUN-1002 : start command "report_timing"
+RUN-1002 : start command "start_timer -report"
+RUN-1003 : finish command "start_timer -report" in  11.596951s wall, 11.703125s user + 0.546875s system = 12.250000s CPU (105.6%)
+
+RUN-1004 : used memory is 2197 MB, reserved memory is 2903 MB, peak memory is 2208 MB
+RUN-1002 : start command "end_timer"
+RUN-1003 : finish command "report_timing" in  15.705238s wall, 15.750000s user + 0.703125s system = 16.453125s CPU (104.8%)
+
+RUN-1004 : used memory is 2223 MB, reserved memory is 2911 MB, peak memory is 2248 MB
+RUN-1002 : start command "download -bit CortexM3_Runs\phy_1\CortexM3.bit -mode jtag -spd 7 -sec 64 -cable 0"
+PRG-2014 : Chip validation success: PH1A60
+RUN-1003 : finish command "download -bit CortexM3_Runs\phy_1\CortexM3.bit -mode jtag -spd 7 -sec 64 -cable 0" in  21.650382s wall, 1.515625s user + 0.734375s system = 2.250000s CPU (10.4%)
+
+RUN-1004 : used memory is 2242 MB, reserved memory is 2929 MB, peak memory is 2304 MB
+GUI-1001 : Download success!
+HDL-1007 : analyze verilog file ../RTL/CortexM3_TD.v
+HDL-1007 : undeclared symbol 'TXEN', assumed default net type 'wire' in ../RTL/CortexM3_TD.v(788)
+HDL-1007 : undeclared symbol 'BAUDTICK', assumed default net type 'wire' in ../RTL/CortexM3_TD.v(789)
+HDL-1007 : analyze verilog file ../RTL/CortexM3_TD.v
+HDL-1007 : undeclared symbol 'TXEN', assumed default net type 'wire' in ../RTL/CortexM3_TD.v(788)
+HDL-1007 : undeclared symbol 'BAUDTICK', assumed default net type 'wire' in ../RTL/CortexM3_TD.v(789)
+RUN-1001 : reset_run syn_1 phy_1.
+GUI-6001 WARNING: File D:/Desktop/CortexM3/TD/CortexM3_Runs/phy_1/CortexM3.bit does not exist!
+RUN-1001 : launch_runs syn_1 phy_1  -jobs 6.
+RUN-1001 : syn_1: run complete.
+RUN-1001 : phy_1: run complete.
+RUN-1001 : open_run phy_1.
+RUN-1002 : start command "import_db D:/Desktop/CortexM3/TD/CortexM3_Runs/phy_1/CortexM3_pr.db"
+RUN-1001 : Importing database generated by Tang Dynasty, V5.6.56362.
+RUN-1001 : Database version number 46140.
+RUN-1001 : Import flow parameters
+RUN-1001 : Constructing routing connections.
+RUN-1001 : Import timing constraints
+RUN-1001 : Import IO constraints
+RUN-1001 : Import Inst constraints
+RUN-1001 : Import design success TD_VERSION=5.6.56362 , DB_VERSION=46140
+RUN-1003 : finish command "import_db D:/Desktop/CortexM3/TD/CortexM3_Runs/phy_1/CortexM3_pr.db" in  23.693567s wall, 29.703125s user + 4.734375s system = 34.437500s CPU (145.3%)
+
+RUN-1004 : used memory is 1610 MB, reserved memory is 2381 MB, peak memory is 2304 MB
+RUN-1002 : start command "report_timing"
+RUN-1002 : start command "start_timer -report"
+RUN-1003 : finish command "start_timer -report" in  11.499483s wall, 11.281250s user + 0.156250s system = 11.437500s CPU (99.5%)
+
+RUN-1004 : used memory is 1985 MB, reserved memory is 2697 MB, peak memory is 2304 MB
+RUN-1002 : start command "end_timer"
+RUN-1003 : finish command "report_timing" in  15.234548s wall, 14.984375s user + 0.203125s system = 15.187500s CPU (99.7%)
+
+RUN-1004 : used memory is 2002 MB, reserved memory is 2696 MB, peak memory is 2304 MB
+RUN-1002 : start command "download -bit CortexM3_Runs\phy_1\CortexM3.bit -mode jtag -spd 7 -sec 64 -cable 0"
+PRG-2014 : Chip validation success: PH1A60
+RUN-1003 : finish command "download -bit CortexM3_Runs\phy_1\CortexM3.bit -mode jtag -spd 7 -sec 64 -cable 0" in  21.702905s wall, 1.453125s user + 1.046875s system = 2.500000s CPU (11.5%)
+
+RUN-1004 : used memory is 152 MB, reserved memory is 2716 MB, peak memory is 2304 MB
+GUI-1001 : Download success!
+RUN-1002 : start command "download -bit CortexM3_Runs\phy_1\CortexM3.bit -mode jtag -spd 7 -sec 64 -cable 0"
+PRG-2014 : Chip validation success: PH1A60
+RUN-1003 : finish command "download -bit CortexM3_Runs\phy_1\CortexM3.bit -mode jtag -spd 7 -sec 64 -cable 0" in  21.439965s wall, 1.218750s user + 0.671875s system = 1.890625s CPU (8.8%)
+
+RUN-1004 : used memory is 154 MB, reserved memory is 2716 MB, peak memory is 2304 MB
+GUI-1001 : Download success!
+RUN-1002 : start command "download -bit CortexM3_Runs\phy_1\CortexM3.bit -mode jtag -spd 7 -sec 64 -cable 0"
+PRG-2014 : Chip validation success: PH1A60
+RUN-1003 : finish command "download -bit CortexM3_Runs\phy_1\CortexM3.bit -mode jtag -spd 7 -sec 64 -cable 0" in  21.479416s wall, 1.093750s user + 0.968750s system = 2.062500s CPU (9.6%)
+
+RUN-1004 : used memory is 169 MB, reserved memory is 2720 MB, peak memory is 2304 MB
+GUI-1001 : Download success!
+RUN-1002 : start command "download -bit CortexM3_Runs\phy_1\CortexM3.bit -mode jtag -spd 7 -sec 64 -cable 0"
+PRG-2014 : Chip validation success: PH1A60
+RUN-1003 : finish command "download -bit CortexM3_Runs\phy_1\CortexM3.bit -mode jtag -spd 7 -sec 64 -cable 0" in  21.681165s wall, 1.203125s user + 0.875000s system = 2.078125s CPU (9.6%)
+
+RUN-1004 : used memory is 164 MB, reserved memory is 2719 MB, peak memory is 2304 MB
+GUI-1001 : Download success!
+RUN-1002 : start command "download -bit CortexM3_Runs\phy_1\CortexM3.bit -mode jtag -spd 7 -sec 64 -cable 0"
+PRG-2014 : Chip validation success: PH1A60
+RUN-1003 : finish command "download -bit CortexM3_Runs\phy_1\CortexM3.bit -mode jtag -spd 7 -sec 64 -cable 0" in  21.692264s wall, 1.406250s user + 1.234375s system = 2.640625s CPU (12.2%)
+
+RUN-1004 : used memory is 166 MB, reserved memory is 2719 MB, peak memory is 2304 MB
+GUI-1001 : Download success!
+RUN-1002 : start command "download -bit CortexM3_Runs\phy_1\CortexM3.bit -mode jtag -spd 7 -sec 64 -cable 0"
+PRG-2014 : Chip validation success: PH1A60
+RUN-1003 : finish command "download -bit CortexM3_Runs\phy_1\CortexM3.bit -mode jtag -spd 7 -sec 64 -cable 0" in  21.775460s wall, 1.343750s user + 1.187500s system = 2.531250s CPU (11.6%)
+
+RUN-1004 : used memory is 154 MB, reserved memory is 2720 MB, peak memory is 2304 MB
+GUI-1001 : Download success!
+RUN-1002 : start command "download -bit CortexM3_Runs\phy_1\CortexM3.bit -mode jtag -spd 7 -sec 64 -cable 0"
+PRG-2014 : Chip validation success: PH1A60
+RUN-1003 : finish command "download -bit CortexM3_Runs\phy_1\CortexM3.bit -mode jtag -spd 7 -sec 64 -cable 0" in  21.257725s wall, 0.843750s user + 0.421875s system = 1.265625s CPU (6.0%)
+
+RUN-1004 : used memory is 160 MB, reserved memory is 2720 MB, peak memory is 2304 MB
+GUI-1001 : Download success!
+RUN-1002 : start command "download -bit CortexM3_Runs\phy_1\CortexM3.bit -mode jtag -spd 7 -sec 64 -cable 0"
+PRG-2014 : Chip validation success: PH1A60
+RUN-1003 : finish command "download -bit CortexM3_Runs\phy_1\CortexM3.bit -mode jtag -spd 7 -sec 64 -cable 0" in  21.867036s wall, 1.171875s user + 1.015625s system = 2.187500s CPU (10.0%)
+
+RUN-1004 : used memory is 149 MB, reserved memory is 2720 MB, peak memory is 2304 MB
+GUI-1001 : Download success!

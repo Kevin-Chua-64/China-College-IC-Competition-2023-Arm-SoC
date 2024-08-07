@@ -1,0 +1,16 @@
+Fitter Status : Successful - Sat Jul 22 21:19:19 2023
+Quartus Prime Version : 17.1.0 Build 590 10/25/2017 SJ Standard Edition
+Revision Name : CortexM3
+Top-level Entity Name : CortexM3
+Family : Cyclone IV E
+Device : EP4CE55F23I7
+Timing Models : Final
+Total logic elements : 22,949 / 55,856 ( 41 % )
+    Total combinational functions : 22,141 / 55,856 ( 40 % )
+    Dedicated logic registers : 5,591 / 55,856 ( 10 % )
+Total registers : 5591
+Total pins : 35 / 325 ( 11 % )
+Total virtual pins : 0
+Total memory bits : 1,048,576 / 2,396,160 ( 44 % )
+Embedded Multiplier 9-bit elements : 6 / 308 ( 2 % )
+Total PLLs : 1 / 4 ( 25 % )

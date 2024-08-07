@@ -1,0 +1,271 @@
+============================================================
+   Tang Dynasty, V5.6.56362
+   Copyright (c) 2012-2022 Anlogic
+   Executable = D:/Anlogic/TD5.6.56362/bin/td.exe
+   Built at =   19:51:00 Jul 25 2022
+   Run by =     DELL
+   Run Date =   Wed Jul 19 23:30:16 2023
+
+   Run on =     DESKTOP-CF55MT9
+============================================================
+RUN-1002 : start command "open_project CortexM3.prj"
+RUN-1001 : Print Global Property
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :        Parameters        |  Settings  |  Default Values  |  Note  
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :          message         |  standard  |     standard     |        
+RUN-1001 :   mixed_pack_place_flow  |     on     |        on        |        
+RUN-1001 :        syn_ip_flow       |    off     |       off        |        
+RUN-1001 :          thread          |    auto    |       auto       |        
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 : Print Design Property
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :   default_reg_initial   |    auto    |       auto       |        
+RUN-1001 :        infer_add        |     on     |        on        |        
+RUN-1001 :        infer_fsm        |    off     |       off        |        
+RUN-1001 :        infer_mult       |     on     |        on        |        
+RUN-1001 :        infer_ram        |     on     |        on        |        
+RUN-1001 :        infer_reg        |     on     |        on        |        
+RUN-1001 :   infer_reg_init_value  |     on     |        on        |        
+RUN-1001 :        infer_rom        |     on     |        on        |        
+RUN-1001 :      infer_shifter      |     on     |        on        |        
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 : Print Rtl Property
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :       compress_add      |   ripple   |      ripple      |        
+RUN-1001 :        elf_sload        |    off     |       off        |        
+RUN-1001 :       fix_undriven      |     0      |        0         |        
+RUN-1001 :         flatten         |    off     |       off        |        
+RUN-1001 :       gate_sharing      |     on     |        on        |        
+RUN-1001 :    hdl_warning_level    |   normal   |      normal      |        
+RUN-1001 :   impl_internal_tribuf  |     on     |        on        |        
+RUN-1001 :      impl_set_reset     |     on     |        on        |        
+RUN-1001 :        infer_gsr        |    off     |       off        |        
+RUN-1001 :      keep_hierarchy     |    auto    |       auto       |        
+RUN-1001 :        max_fanout       |    9999    |       9999       |        
+RUN-1001 :      max_oh2bin_len     |     10     |        10        |        
+RUN-1001 :       merge_equal       |     on     |        on        |        
+RUN-1001 :       merge_equiv       |     on     |        on        |        
+RUN-1001 :        merge_mux        |    off     |       off        |        
+RUN-1001 :     min_control_set     |     8      |        8         |        
+RUN-1001 :      min_ripple_len     |    auto    |       auto       |        
+RUN-1001 :       oh2bin_ratio      |    0.08    |       0.08       |        
+RUN-1001 :     opt_adder_fanout    |     on     |        on        |        
+RUN-1001 :        opt_arith        |     on     |        on        |        
+RUN-1001 :       opt_big_gate      |    off     |       off        |        
+RUN-1001 :        opt_const        |     on     |        on        |        
+RUN-1001 :      opt_const_mult     |     on     |        on        |        
+RUN-1001 :       opt_lessthan      |     on     |        on        |        
+RUN-1001 :         opt_mux         |    off     |       off        |        
+RUN-1001 :         opt_ram         |    high    |       high       |        
+RUN-1001 :      rtl_sim_model      |    off     |       off        |        
+RUN-1001 :         seq_syn         |     on     |        on        |        
+RUN-1001 : --------------------------------------------------------------
+HDL-1007 : analyze verilog file ../../../RTL/CortexM3_TD.v
+HDL-1007 : undeclared symbol 'TXEN', assumed default net type 'wire' in ../../../RTL/CortexM3_TD.v(788)
+HDL-1007 : undeclared symbol 'BAUDTICK', assumed default net type 'wire' in ../../../RTL/CortexM3_TD.v(789)
+HDL-1007 : analyze verilog file ../../../RTL/bus/AhbMtx/AhbMtx.v
+HDL-1007 : analyze verilog file ../../../RTL/bus/AhbMtx/AhbMtxArbM0.v
+HDL-1007 : analyze verilog file ../../../RTL/bus/AhbMtx/AhbMtxArbM1.v
+HDL-1007 : analyze verilog file ../../../RTL/bus/AhbMtx/AhbMtxArbM2.v
+HDL-1007 : analyze verilog file ../../../RTL/bus/AhbMtx/AhbMtxDecS0.v
+HDL-1007 : analyze verilog file ../../../RTL/bus/AhbMtx/AhbMtxDecS1.v
+HDL-1007 : analyze verilog file ../../../RTL/bus/AhbMtx/AhbMtxDecS2.v
+HDL-1007 : analyze verilog file ../../../RTL/bus/AhbMtx/AhbMtxInStg.v
+HDL-1007 : analyze verilog file ../../../RTL/bus/AhbMtx/AhbMtxOutStgM0.v
+HDL-1007 : analyze verilog file ../../../RTL/bus/AhbMtx/AhbMtxOutStgM1.v
+HDL-1007 : analyze verilog file ../../../RTL/bus/AhbMtx/AhbMtxOutStgM2.v
+HDL-1007 : analyze verilog file ../../../RTL/bus/AhbMtx/AhbMtx_default_slave.v
+HDL-1007 : analyze verilog file ../../../RTL/bus/Apb/cmsdk_ahb_to_apb.v
+HDL-1007 : analyze verilog file ../../../RTL/bus/Apb/cmsdk_apb_slave_mux.v
+HDL-1007 : analyze verilog file ../../../RTL/core/cortexm3ds_logic.v
+HDL-1007 : analyze verilog file ../../../RTL/peripheral/buzzer/custom_apb_buzzer.v
+HDL-1007 : undeclared symbol 'read_en', assumed default net type 'wire' in ../../../RTL/peripheral/buzzer/custom_apb_buzzer.v(36)
+HDL-1007 : undeclared symbol 'write_en', assumed default net type 'wire' in ../../../RTL/peripheral/buzzer/custom_apb_buzzer.v(37)
+HDL-1007 : analyze verilog file ../../../RTL/peripheral/key/custom_apb_key.v
+HDL-1007 : undeclared symbol 'read_en', assumed default net type 'wire' in ../../../RTL/peripheral/key/custom_apb_key.v(36)
+HDL-1007 : analyze verilog file ../../../RTL/peripheral/lcd/custom_apb_lcd.v
+HDL-1007 : undeclared symbol 'read_en', assumed default net type 'wire' in ../../../RTL/peripheral/lcd/custom_apb_lcd.v(42)
+HDL-1007 : undeclared symbol 'write_en', assumed default net type 'wire' in ../../../RTL/peripheral/lcd/custom_apb_lcd.v(43)
+HDL-1007 : analyze verilog file ../../../RTL/peripheral/led/custom_apb_led.v
+HDL-1007 : undeclared symbol 'read_en', assumed default net type 'wire' in ../../../RTL/peripheral/led/custom_apb_led.v(36)
+HDL-1007 : undeclared symbol 'write_en', assumed default net type 'wire' in ../../../RTL/peripheral/led/custom_apb_led.v(37)
+HDL-1007 : analyze verilog file ../../../RTL/peripheral/sram/cmsdk_ahb_to_sram.v
+HDL-1007 : analyze verilog file ../../../RTL/peripheral/sram/cmsdk_fpga_sram.v
+HDL-1007 : analyze verilog file ../../../RTL/peripheral/timer/cmsdk_apb_timer.v
+HDL-1007 : analyze verilog file ../../../RTL/peripheral/uart/cmsdk_apb_uart.v
+HDL-1007 : analyze verilog file ../../al_ip/PLL.v
+HDL-1007 : undeclared symbol 'open', assumed default net type 'wire' in ../../al_ip/PLL.v(76)
+RUN-1001 : Project manager successfully analyzed 25 source files.
+RUN-1003 : finish command "open_project CortexM3.prj" in  2.052770s wall, 1.984375s user + 0.046875s system = 2.031250s CPU (99.0%)
+
+RUN-1004 : used memory is 111 MB, reserved memory is 78 MB, peak memory is 111 MB
+RUN-1002 : start command "import_device ph1_60.db -package PH1A60GEG324"
+ARC-1001 : Device Initialization.
+ARC-1001 : ---------------------------------------------------------------
+ARC-1001 :           OPTION          |          IO          |   SETTING   
+ARC-1001 : ---------------------------------------------------------------
+ARC-1001 :   non_jtag_persist(none)  |        36 IOs        |    gpio    
+ARC-1001 :            jtag           |  P8/E10/E12/E11/E13  |  dedicate  
+ARC-1001 : ---------------------------------------------------------------
+RUN-1003 : finish command "import_device ph1_60.db -package PH1A60GEG324" in  14.557988s wall, 14.218750s user + 0.343750s system = 14.562500s CPU (100.0%)
+
+RUN-1004 : used memory is 668 MB, reserved memory is 658 MB, peak memory is 668 MB
+RUN-1002 : start command "import_db ../syn_1/CortexM3_gate.db"
+RUN-1001 : Importing database generated by Tang Dynasty, V5.6.56362.
+RUN-1001 : Database version number 46140.
+RUN-1001 : Import flow parameters
+RUN-1001 : Import timing constraints
+RUN-1001 : Import IO constraints
+RUN-1001 : Import Inst constraints
+RUN-1001 : Import design success TD_VERSION=5.6.56362 , DB_VERSION=46140
+RUN-1003 : finish command "import_db ../syn_1/CortexM3_gate.db" in  6.241721s wall, 5.875000s user + 0.359375s system = 6.234375s CPU (99.9%)
+
+RUN-1004 : used memory is 1284 MB, reserved memory is 1297 MB, peak memory is 1305 MB
+RUN-1002 : start command "read_sdc"
+USR-1002 : read_sdc file_name -help -h -eco
+USR-1009 : NO module with IP_SDC ...
+RUN-1104 : Import SDC file  finished, there are 0 nets kept by constraints.
+RUN-1002 : start command "place"
+RUN-1001 : Open license file D:/Anlogic/TD5.6.56362/license/Anlogic.lic
+RUN-1001 : Print Global Property
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :        Parameters        |  Settings  |  Default Values  |  Note  
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :          message         |  standard  |     standard     |        
+RUN-1001 :   mixed_pack_place_flow  |     on     |        on        |        
+RUN-1001 :        syn_ip_flow       |    off     |       off        |        
+RUN-1001 :          thread          |    auto    |       auto       |        
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 : Print Place Property
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :      detailed_place     |     on     |        on        |        
+RUN-1001 :          effort         |   medium   |      medium      |        
+RUN-1001 :         fix_hold        |    off     |       off        |        
+RUN-1001 :       legalization      |    ori     |       ori        |        
+RUN-1001 :      new_spreading      |     on     |        on        |        
+RUN-1001 :        opt_timing       |   medium   |      medium      |        
+RUN-1001 :   post_clock_route_opt  |    off     |       off        |        
+RUN-1001 :       pr_strategy       |     1      |        1         |        
+RUN-1001 :        relaxation       |    1.00    |       1.00       |        
+RUN-1001 :         retiming        |    off     |       off        |        
+RUN-1001 : --------------------------------------------------------------
+PHY-3001 : Placer runs in 8 thread(s).
+RUN-1002 : start command "legalize_phy_inst"
+SYN-1011 : Flatten model CortexM3
+RUN-1002 : start command "phys_opt -simplify_lut"
+RUN-1002 : start command "phys_opt -lut_merge"
+OPT-1001 : Start remap optimization ...
+RUN-1002 : start command "start_timer -report"
+TMR-2505 : Start building timing graph for model CortexM3.
+TMR-2506 : Build timing graph completely. Port num: 16, tpin num: 326350, tnet num: 50571, tinst num: 47426, tnode num: 365675, tedge num: 550438.
+TMR-2508 : Levelizing timing graph completed, there are 209 levels in total.
+TMR-2501 : Timing graph initialized successfully.
+RUN-1003 : finish command "start_timer -report" in  10.088787s wall, 9.843750s user + 0.187500s system = 10.031250s CPU (99.4%)
+
+RUN-1004 : used memory is 1779 MB, reserved memory is 1810 MB, peak memory is 1780 MB
+TMR-2503 : Start to update net delay, extr mode = 2.
+TMR-2504 : Update delay of 50571 nets completely.
+TMR-2502 : Annotate delay completely, extr mode = 2.
+TMR-3001 : Initiate 0 clocks from SDC.
+TMR-3004 : Map sdc constraints, there are 0 constraints in total.
+TMR-3003 : Constraints initiated successfully.
+TMR-3501 : Forward propagation: start to calculate arrival time...
+TMR-3502 : Backward propagation: start to calculate required time...
+TMR-3503 : Timing propagation completes.
+OPT-1001 : End timing update;  11.637288s wall, 11.390625s user + 0.187500s system = 11.578125s CPU (99.5%)
+
+OPT-0007 : Start: WNS 2147483647 TNS 0 NUM_FEPS 0
+OPT-1001 : RemapOpt: identify 0 lut pair candidates and remap 0 pairs successfully
+OPT-1001 : End remap optimization;  11.640311s wall, 11.406250s user + 0.187500s system = 11.593750s CPU (99.6%)
+
+OPT-1001 : End physical optimization;  12.295493s wall, 12.031250s user + 0.218750s system = 12.250000s CPU (99.6%)
+
+RUN-1003 : finish command "phys_opt -lut_merge" in  12.295702s wall, 12.031250s user + 0.218750s system = 12.250000s CPU (99.6%)
+
+RUN-1004 : used memory is 1410 MB, reserved memory is 1461 MB, peak memory is 1816 MB
+PHY-1001 : Start to synthesize physical clock networks.
+RUN-1002 : start command "start_timer -report"
+TMR-2505 : Start building timing graph for model CortexM3.
+TMR-2506 : Build timing graph completely. Port num: 16, tpin num: 326350, tnet num: 50571, tinst num: 47426, tnode num: 365675, tedge num: 550438.
+TMR-2508 : Levelizing timing graph completed, there are 209 levels in total.
+TMR-2501 : Timing graph initialized successfully.
+RUN-1003 : finish command "start_timer -report" in  10.138539s wall, 10.078125s user + 0.062500s system = 10.140625s CPU (100.0%)
+
+RUN-1004 : used memory is 1834 MB, reserved memory is 1886 MB, peak memory is 1835 MB
+TMR-2503 : Start to update net delay, extr mode = 2.
+TMR-2504 : Update delay of 50571 nets completely.
+TMR-2502 : Annotate delay completely, extr mode = 2.
+TMR-3001 : Initiate 0 clocks from SDC.
+TMR-3004 : Map sdc constraints, there are 0 constraints in total.
+TMR-3003 : Constraints initiated successfully.
+TMR-3501 : Forward propagation: start to calculate arrival time...
+TMR-3502 : Backward propagation: start to calculate required time...
+TMR-3503 : Timing propagation completes.
+PHY-1004 : User specified global clock net SWCLK_dup_1, connecting to GCLK SynClockTD$sw_clk
+PHY-1004 : User specified global clock net ulogic/SWCLKTCK, connecting to GCLK SynClockTD$sw_clk
+PHY-1004 : User specified global clock net SynClockTD$PLL/clk0_buf, connecting to GCLK SynClockTD$PLL/bufg_feedback
+PHY-1004 : User specified global clock net ulogic/HCLK, connecting to GCLK SynClockTD$PLL/bufg_feedback
+PHY-1016 : User specified PLL reference clock net CLK50m_dup_1
+PHY-1009 : Tag global clock net SWCLK_dup_1
+PHY-1009 : Tag global clock net SynClockTD$PLL/clk0_buf
+PHY-1009 : Tag global clock net ulogic/HCLK
+PHY-1009 : Tag global clock net ulogic/SWCLKTCK
+PHY-1017 : Tag PLL clock net CLK50m_dup_1
+PHY-5016 WARNING: Model pin SWCLK connect to a non-clock-capable pad b17.
+PHY-1001 : Clock GCLK Statistics:
+RUN-1001 : GCLK Index: 
+RUN-1001 : -----------------------------------------
+RUN-1001 :   Index  |           Clock GCLK           
+RUN-1001 : -----------------------------------------
+RUN-1001 :     1    |  SynClockTD$PLL/bufg_feedback  
+RUN-1001 :     2    |       SynClockTD$sw_clk        
+RUN-1001 : -----------------------------------------
+RUN-1001 : Clock Nets Connect To GCLK Statistics: 
+RUN-1001 : -------------------------------------------------------------------------------------------------------------
+RUN-1001 :   Index  |        Leading Net        |  CLK/DATA/IO/PLL Sink(s)  |   Following Net   |  CLK/DATA/IO/PLL Sink(s)  
+RUN-1001 : -------------------------------------------------------------------------------------------------------------
+RUN-1001 :     1    |  SynClockTD$PLL/clk0_buf  |          1/0/0/0          |    ulogic/HCLK    |        7302/0/0/0         
+RUN-1001 :     2    |        SWCLK_dup_1        |          1/0/0/0          |  ulogic/SWCLKTCK  |         202/0/0/0         
+RUN-1001 : -------------------------------------------------------------------------------------------------------------
+PHY-1001 : Populate physical database on model CortexM3.
+RUN-1001 : There are total 47423 instances
+RUN-0007 : 17255 luts, 5455 seqs, 16384 mslices, 5149 lslices, 35 pads, 0 brams, 3 dsps
+RUN-1001 : There are total 70617 nets
+RUN-1001 : 36914 nets have 2 pins
+RUN-1001 : 7241 nets have [3 - 5] pins
+RUN-1001 : 24819 nets have [6 - 10] pins
+RUN-1001 : 809 nets have [11 - 20] pins
+RUN-1001 : 715 nets have [21 - 99] pins
+RUN-1001 : 119 nets have 100+ pins
+RUN-1001 : Report Control nets information:
+RUN-1001 : DFF Distribution
+RUN-1001 : ----------------------------------
+RUN-1001 :   CE   |  SSR  |  ASR  |  DFF Count  
+RUN-1001 : ----------------------------------
+RUN-1001 :   No   |  No   |  No   |     681     
+RUN-1001 :   No   |  No   |  Yes  |    2080     
+RUN-1001 :   No   |  Yes  |  No   |      0      
+RUN-1001 :   Yes  |  No   |  No   |    1577     
+RUN-1001 :   Yes  |  No   |  Yes  |    1117     
+RUN-1001 :   Yes  |  Yes  |  No   |      0      
+RUN-1001 : ----------------------------------
+RUN-0007 : Control Group Statistic
+RUN-0007 : ---------------------------
+RUN-0007 :   #CLK  |  #CE  |  #SSR/ASR  
+RUN-0007 : ---------------------------
+RUN-0007 :    2    |  164  |     6      
+RUN-0007 : ---------------------------
+RUN-0007 : Control Set = 171
+PHY-9009 ERROR: Design's mslice number = 16384, exceeds the limit 12480.
+PHY-1001 : Populate physical database on model CortexM3.
+RUN-1003 : finish command "place" in  28.112593s wall, 27.687500s user + 0.390625s system = 28.078125s CPU (99.9%)
+
+RUN-1004 : used memory is 1523 MB, reserved memory is 1637 MB, peak memory is 1877 MB
+RUN-1002 : start command "backup_run_log run.log ../.logs/phy_1/td_20230719_233016.log"

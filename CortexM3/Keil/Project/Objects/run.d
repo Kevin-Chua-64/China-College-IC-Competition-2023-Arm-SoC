@@ -1,0 +1,9 @@
+.\objects\run.o: ..\Software\User\Func\run.c
+.\objects\run.o: ..\Software\Core\Device\Include\CortexM3.h
+.\objects\run.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\run.o: ..\Software\Core\CMSIS\core_cm3.h
+.\objects\run.o: ..\Software\Core\CMSIS\core_cmInstr.h
+.\objects\run.o: ..\Software\Core\CMSIS\core_cmFunc.h
+.\objects\run.o: ..\Software\User\Func\draw.h
+.\objects\run.o: ..\Software\User\Func\basic_run.h
+.\objects\run.o: ..\Software\User\Func\run.h

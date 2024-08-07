@@ -1,0 +1,66 @@
+standard
+***Report Model: CortexM3 Device: PH1A60GEG324***
+
+IO Statistics
+#IO                        35
+  #input                    8
+  #output                  26
+  #inout                    1
+
+Gate Statistics
+#Basic gates            81184
+  #and                  40142
+  #nand                     0
+  #or                    4643
+  #nor                      0
+  #xor                   1120
+  #xnor                     0
+  #buf                      0
+  #not                  27654
+  #bufif1                   1
+  #MX21                  2191
+  #FADD                     0
+  #DFF                   5433
+  #LATCH                    0
+#MACRO_ADD                 57
+#MACRO_EQ                 101
+#MACRO_MULT                 1
+#MACRO_MUX                890
+#MACRO_OTHERS              10
+
+Report Hierarchy Area:
++---------------------------------------------------------------------------+
+|Instance                     |Module               |gates  |seq    |macros |
++---------------------------------------------------------------------------+
+|top                          |CortexM3             |75751  |5433   |169    |
+|  AhbDtcm                    |cmsdk_ahb_to_sram    |40     |49     |1      |
+|  AhbItcm                    |cmsdk_ahb_to_sram    |40     |49     |1      |
+|  AhbMtx                     |AhbMtx               |390    |117    |24     |
+|    u_AhbMtxInStg_0          |AhbMtxInStg          |14     |26     |0      |
+|    u_AhbMtxInStg_1          |AhbMtxInStg          |15     |30     |0      |
+|    u_AhbMtxInStg_2          |AhbMtxInStg          |15     |38     |0      |
+|    u_ahbmtxdecs0            |AhbMtxDecS0          |41     |3      |4      |
+|      u_AhbMtx_default_slave |AhbMtx_default_slave |4      |2      |0      |
+|    u_ahbmtxdecs1            |AhbMtxDecS1          |41     |3      |4      |
+|      u_AhbMtx_default_slave |AhbMtx_default_slave |4      |2      |0      |
+|    u_ahbmtxdecs2            |AhbMtxDecS2          |147    |5      |8      |
+|      u_AhbMtx_default_slave |AhbMtx_default_slave |4      |2      |0      |
+|    u_ahbmtxoutstgm0_0       |AhbMtxOutStgM0       |71     |3      |3      |
+|      u_output_arb           |AhbMtxArbM0          |11     |2      |1      |
+|    u_ahbmtxoutstgm1_1       |AhbMtxOutStgM1       |23     |4      |3      |
+|      u_output_arb           |AhbMtxArbM1          |8      |2      |1      |
+|    u_ahbmtxoutstgm2_2       |AhbMtxOutStgM2       |23     |5      |2      |
+|      u_output_arb           |AhbMtxArbM2          |7      |2      |0      |
+|  ApbBridge                  |cmsdk_ahb_to_apb     |10     |51     |4      |
+|  ApbSystem                  |cmsdk_apb_slave_mux  |94     |0      |6      |
+|  Buzzer                     |custom_apb_buzzer    |5      |1      |1      |
+|  DTCM                       |cmsdk_fpga_sram      |0      |11     |4      |
+|  ITCM                       |cmsdk_fpga_sram      |0      |11     |4      |
+|  Key                        |custom_apb_key       |3      |4      |0      |
+|  LCD                        |custom_apb_lcd       |36     |22     |32     |
+|  LED                        |custom_apb_led       |5      |2      |0      |
+|  SynClockTD$PLL             |PLL                  |0      |0      |1      |
+|  Timer                      |cmsdk_apb_timer      |57     |77     |5      |
+|  UART                       |cmsdk_apb_uart       |94     |116    |19     |
+|  ulogic                     |cortexm3ds_logic     |74973  |4921   |66     |
++---------------------------------------------------------------------------+

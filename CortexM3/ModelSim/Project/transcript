@@ -1,0 +1,388 @@
+# Reading D:/modeltech64_10.6c/tcl/vsim/pref.tcl
+# //  ModelSim SE-64 10.6c Jul 26 2017
+# //
+# //  Copyright 1991-2017 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# OpenFile D:/Desktop/CortexM3/ModelSim/Project/CortexM3.mpf
+# Loading project CortexM3
+vsim -gui work.CortexM3_tb -novopt
+# vsim -gui work.CortexM3_tb -novopt 
+# Start time: 22:25:13 on Jul 21,2023
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading work.CortexM3_tb
+# Loading work.CortexM3
+# Loading work.cortexm3ds_logic
+# Loading work.AhbMtx
+# Loading work.AhbMtxInStg
+# Loading work.AhbMtxDecS0
+# Loading work.AhbMtx_default_slave
+# Loading work.AhbMtxDecS1
+# Loading work.AhbMtxDecS2
+# Loading work.AhbMtxOutStgM0
+# Loading work.AhbMtxArbM0
+# Loading work.AhbMtxOutStgM1
+# Loading work.AhbMtxArbM1
+# Loading work.AhbMtxOutStgM2
+# Loading work.AhbMtxArbM2
+# Loading work.cmsdk_ahb_to_sram
+# Loading work.cmsdk_fpga_sram
+# Loading work.cmsdk_ahb_to_apb
+# Loading work.cmsdk_apb_slave_mux
+# Loading work.cmsdk_apb_uart
+# Loading work.cmsdk_apb_timer
+# Loading work.custom_apb_lcd
+# Loading work.custom_apb_key
+# Loading work.custom_apb_led
+# Loading work.custom_apb_buzzer
+# ** Warning: (vsim-3017) D:/Desktop/CortexM3/ModelSim/CortexM3_tb.v(11): [TFMPC] - Too few port connections. Expected 16, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /CortexM3_tb/i1 File: D:/Desktop/CortexM3/RTL/CortexM3.v
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/ModelSim/CortexM3_tb.v(11): [TFMPC] - Missing connection for port 'SWDIO'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/ModelSim/CortexM3_tb.v(11): [TFMPC] - Missing connection for port 'SWCLK'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/ModelSim/CortexM3_tb.v(11): [TFMPC] - Missing connection for port 'TXD'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/ModelSim/CortexM3_tb.v(11): [TFMPC] - Missing connection for port 'LCD_CS'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/ModelSim/CortexM3_tb.v(11): [TFMPC] - Missing connection for port 'LCD_RS'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/ModelSim/CortexM3_tb.v(11): [TFMPC] - Missing connection for port 'LCD_WR'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/ModelSim/CortexM3_tb.v(11): [TFMPC] - Missing connection for port 'LCD_RD'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/ModelSim/CortexM3_tb.v(11): [TFMPC] - Missing connection for port 'LCD_RST'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/ModelSim/CortexM3_tb.v(11): [TFMPC] - Missing connection for port 'LCD_BL_CTR'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/ModelSim/CortexM3_tb.v(11): [TFMPC] - Missing connection for port 'LCD_DATA'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/ModelSim/CortexM3_tb.v(11): [TFMPC] - Missing connection for port 'keyIn'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/ModelSim/CortexM3_tb.v(11): [TFMPC] - Missing connection for port 'ledOut'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/ModelSim/CortexM3_tb.v(11): [TFMPC] - Missing connection for port 'buzzerOut'.
+# ** Warning: (vsim-3017) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Too few port connections. Expected 122, found 71.
+#    Time: 0 ps  Iteration: 0  Instance: /CortexM3_tb/i1/ulogic File: D:/Desktop/CortexM3/RTL/core/cortexm3ds_logic.v
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'TDO'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'nTDOEN'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'SWV'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'JTAGNSW'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'TRACECLK'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'TRACEDATA'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'MEMATTRI'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'MEMATTRD'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'EXREQD'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'MEMATTRS'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'EXREQS'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'BRCHSTAT'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'HALTED'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'LOCKUP'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'SLEEPDEEP'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'ETMINTNUM'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'ETMINTSTAT'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'TXEV'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'TRCENA'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'CURRPRI'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'DBGRESTARTED'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'SLEEPHOLDACKn'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'GATEHCLK'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'HTMDHADDR'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'HTMDHTRANS'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'HTMDHSIZE'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'HTMDHBURST'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'HTMDHPROT'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'HTMDHWDATA'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'HTMDHWRITE'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'HTMDHRDATA'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'HTMDHREADY'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'HTMDHRESP'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'WICENACK'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'WAKEUP'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'vis_r0_o'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'vis_r1_o'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'vis_r2_o'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'vis_r3_o'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'vis_r4_o'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'vis_r5_o'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'vis_r6_o'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'vis_r7_o'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'vis_r8_o'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'vis_r9_o'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'vis_r10_o'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'vis_r11_o'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'vis_r12_o'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'vis_msp_o'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'vis_psp_o'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'vis_pc_o'.
+# ** Warning: (vsim-3015) D:/Desktop/CortexM3/RTL/CortexM3.v(345): [PCDPC] - Port size (4) does not match connection size (2) for port 'HMASTERM0'. The port definition is at: D:/Desktop/CortexM3/RTL/bus/AhbMtx/AhbMtx.v(133).
+#    Time: 0 ps  Iteration: 0  Instance: /CortexM3_tb/i1/AhbMtx File: D:/Desktop/CortexM3/RTL/bus/AhbMtx/AhbMtx.v
+# ** Warning: (vsim-3015) D:/Desktop/CortexM3/RTL/CortexM3.v(345): [PCDPC] - Port size (4) does not match connection size (2) for port 'HMASTERM1'. The port definition is at: D:/Desktop/CortexM3/RTL/bus/AhbMtx/AhbMtx.v(148).
+#    Time: 0 ps  Iteration: 0  Instance: /CortexM3_tb/i1/AhbMtx File: D:/Desktop/CortexM3/RTL/bus/AhbMtx/AhbMtx.v
+# ** Warning: (vsim-3015) D:/Desktop/CortexM3/RTL/CortexM3.v(345): [PCDPC] - Port size (4) does not match connection size (2) for port 'HMASTERM2'. The port definition is at: D:/Desktop/CortexM3/RTL/bus/AhbMtx/AhbMtx.v(163).
+#    Time: 0 ps  Iteration: 0  Instance: /CortexM3_tb/i1/AhbMtx File: D:/Desktop/CortexM3/RTL/bus/AhbMtx/AhbMtx.v
+# ** Warning: (vsim-3015) D:/Desktop/CortexM3/RTL/CortexM3.v(482): [PCDPC] - Port size (16) does not match connection size (32) for port 'HADDR'. The port definition is at: D:/Desktop/CortexM3/RTL/peripheral/sram/cmsdk_ahb_to_sram.v(42).
+#    Time: 0 ps  Iteration: 0  Instance: /CortexM3_tb/i1/AhbItcm File: D:/Desktop/CortexM3/RTL/peripheral/sram/cmsdk_ahb_to_sram.v
+# ** Warning: (vsim-3015) D:/Desktop/CortexM3/RTL/CortexM3.v(526): [PCDPC] - Port size (16) does not match connection size (32) for port 'HADDR'. The port definition is at: D:/Desktop/CortexM3/RTL/peripheral/sram/cmsdk_ahb_to_sram.v(42).
+#    Time: 0 ps  Iteration: 0  Instance: /CortexM3_tb/i1/AhbDtcm File: D:/Desktop/CortexM3/RTL/peripheral/sram/cmsdk_ahb_to_sram.v
+# ** Warning: (vsim-3015) D:/Desktop/CortexM3/RTL/CortexM3.v(579): [PCDPC] - Port size (16) does not match connection size (32) for port 'HADDR'. The port definition is at: D:/Desktop/CortexM3/RTL/bus/Apb/cmsdk_ahb_to_apb.v(46).
+#    Time: 0 ps  Iteration: 0  Instance: /CortexM3_tb/i1/ApbBridge File: D:/Desktop/CortexM3/RTL/bus/Apb/cmsdk_ahb_to_apb.v
+# ** Warning: (vsim-3015) D:/Desktop/CortexM3/RTL/CortexM3.v(828): [PCDPC] - Port size (12) does not match connection size (16) for port 'PADDR'. The port definition is at: D:/Desktop/CortexM3/RTL/peripheral/lcd/custom_apb_lcd.v(11).
+#    Time: 0 ps  Iteration: 0  Instance: /CortexM3_tb/i1/LCD File: D:/Desktop/CortexM3/RTL/peripheral/lcd/custom_apb_lcd.v
+# ** Warning: (vsim-3015) D:/Desktop/CortexM3/RTL/CortexM3.v(856): [PCDPC] - Port size (12) does not match connection size (16) for port 'PADDR'. The port definition is at: D:/Desktop/CortexM3/RTL/peripheral/key/custom_apb_key.v(11).
+#    Time: 0 ps  Iteration: 0  Instance: /CortexM3_tb/i1/Key File: D:/Desktop/CortexM3/RTL/peripheral/key/custom_apb_key.v
+# ** Warning: (vsim-3015) D:/Desktop/CortexM3/RTL/CortexM3.v(878): [PCDPC] - Port size (12) does not match connection size (16) for port 'PADDR'. The port definition is at: D:/Desktop/CortexM3/RTL/peripheral/led/custom_apb_led.v(11).
+#    Time: 0 ps  Iteration: 0  Instance: /CortexM3_tb/i1/LED File: D:/Desktop/CortexM3/RTL/peripheral/led/custom_apb_led.v
+# ** Warning: (vsim-3015) D:/Desktop/CortexM3/RTL/CortexM3.v(900): [PCDPC] - Port size (12) does not match connection size (16) for port 'PADDR'. The port definition is at: D:/Desktop/CortexM3/RTL/peripheral/buzzer/custom_apb_buzzer.v(11).
+#    Time: 0 ps  Iteration: 0  Instance: /CortexM3_tb/i1/Buzzer File: D:/Desktop/CortexM3/RTL/peripheral/buzzer/custom_apb_buzzer.v
+add wave -position insertpoint  \
+sim:/CortexM3_tb/i1/AhbItcm/HCLK \
+sim:/CortexM3_tb/i1/AhbItcm/HRESETn \
+sim:/CortexM3_tb/i1/AhbItcm/HSEL \
+sim:/CortexM3_tb/i1/AhbItcm/HREADY
+add wave -position insertpoint  \
+{sim:/CortexM3_tb/i1/AhbItcm/HTRANS[1]}
+add wave -position insertpoint  \
+sim:/CortexM3_tb/i1/AhbItcm/HWRITE
+add wave -position insertpoint  \
+sim:/CortexM3_tb/i1/AhbItcm/HADDR
+add wave -position insertpoint  \
+sim:/CortexM3_tb/i1/AhbItcm/HWDATA
+run
+run
+restart -f
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# ** Warning: (vsim-3017) D:/Desktop/CortexM3/ModelSim/CortexM3_tb.v(11): [TFMPC] - Too few port connections. Expected 16, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /CortexM3_tb/i1 File: D:/Desktop/CortexM3/RTL/CortexM3.v
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/ModelSim/CortexM3_tb.v(11): [TFMPC] - Missing connection for port 'SWDIO'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/ModelSim/CortexM3_tb.v(11): [TFMPC] - Missing connection for port 'SWCLK'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/ModelSim/CortexM3_tb.v(11): [TFMPC] - Missing connection for port 'TXD'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/ModelSim/CortexM3_tb.v(11): [TFMPC] - Missing connection for port 'LCD_CS'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/ModelSim/CortexM3_tb.v(11): [TFMPC] - Missing connection for port 'LCD_RS'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/ModelSim/CortexM3_tb.v(11): [TFMPC] - Missing connection for port 'LCD_WR'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/ModelSim/CortexM3_tb.v(11): [TFMPC] - Missing connection for port 'LCD_RD'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/ModelSim/CortexM3_tb.v(11): [TFMPC] - Missing connection for port 'LCD_RST'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/ModelSim/CortexM3_tb.v(11): [TFMPC] - Missing connection for port 'LCD_BL_CTR'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/ModelSim/CortexM3_tb.v(11): [TFMPC] - Missing connection for port 'LCD_DATA'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/ModelSim/CortexM3_tb.v(11): [TFMPC] - Missing connection for port 'keyIn'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/ModelSim/CortexM3_tb.v(11): [TFMPC] - Missing connection for port 'ledOut'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/ModelSim/CortexM3_tb.v(11): [TFMPC] - Missing connection for port 'buzzerOut'.
+# ** Warning: (vsim-3017) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Too few port connections. Expected 122, found 71.
+#    Time: 0 ps  Iteration: 0  Instance: /CortexM3_tb/i1/ulogic File: D:/Desktop/CortexM3/RTL/core/cortexm3ds_logic.v
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'TDO'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'nTDOEN'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'SWV'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'JTAGNSW'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'TRACECLK'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'TRACEDATA'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'MEMATTRI'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'MEMATTRD'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'EXREQD'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'MEMATTRS'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'EXREQS'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'BRCHSTAT'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'HALTED'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'LOCKUP'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'SLEEPDEEP'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'ETMINTNUM'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'ETMINTSTAT'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'TXEV'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'TRCENA'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'CURRPRI'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'DBGRESTARTED'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'SLEEPHOLDACKn'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'GATEHCLK'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'HTMDHADDR'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'HTMDHTRANS'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'HTMDHSIZE'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'HTMDHBURST'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'HTMDHPROT'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'HTMDHWDATA'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'HTMDHWRITE'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'HTMDHRDATA'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'HTMDHREADY'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'HTMDHRESP'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'WICENACK'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'WAKEUP'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'vis_r0_o'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'vis_r1_o'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'vis_r2_o'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'vis_r3_o'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'vis_r4_o'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'vis_r5_o'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'vis_r6_o'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'vis_r7_o'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'vis_r8_o'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'vis_r9_o'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'vis_r10_o'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'vis_r11_o'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'vis_r12_o'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'vis_msp_o'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'vis_psp_o'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'vis_pc_o'.
+# ** Warning: (vsim-3015) D:/Desktop/CortexM3/RTL/CortexM3.v(345): [PCDPC] - Port size (4) does not match connection size (2) for port 'HMASTERM0'. The port definition is at: D:/Desktop/CortexM3/RTL/bus/AhbMtx/AhbMtx.v(133).
+#    Time: 0 ps  Iteration: 0  Instance: /CortexM3_tb/i1/AhbMtx File: D:/Desktop/CortexM3/RTL/bus/AhbMtx/AhbMtx.v
+# ** Warning: (vsim-3015) D:/Desktop/CortexM3/RTL/CortexM3.v(345): [PCDPC] - Port size (4) does not match connection size (2) for port 'HMASTERM1'. The port definition is at: D:/Desktop/CortexM3/RTL/bus/AhbMtx/AhbMtx.v(148).
+#    Time: 0 ps  Iteration: 0  Instance: /CortexM3_tb/i1/AhbMtx File: D:/Desktop/CortexM3/RTL/bus/AhbMtx/AhbMtx.v
+# ** Warning: (vsim-3015) D:/Desktop/CortexM3/RTL/CortexM3.v(345): [PCDPC] - Port size (4) does not match connection size (2) for port 'HMASTERM2'. The port definition is at: D:/Desktop/CortexM3/RTL/bus/AhbMtx/AhbMtx.v(163).
+#    Time: 0 ps  Iteration: 0  Instance: /CortexM3_tb/i1/AhbMtx File: D:/Desktop/CortexM3/RTL/bus/AhbMtx/AhbMtx.v
+# ** Warning: (vsim-3015) D:/Desktop/CortexM3/RTL/CortexM3.v(482): [PCDPC] - Port size (16) does not match connection size (32) for port 'HADDR'. The port definition is at: D:/Desktop/CortexM3/RTL/peripheral/sram/cmsdk_ahb_to_sram.v(42).
+#    Time: 0 ps  Iteration: 0  Instance: /CortexM3_tb/i1/AhbItcm File: D:/Desktop/CortexM3/RTL/peripheral/sram/cmsdk_ahb_to_sram.v
+# ** Warning: (vsim-3015) D:/Desktop/CortexM3/RTL/CortexM3.v(526): [PCDPC] - Port size (16) does not match connection size (32) for port 'HADDR'. The port definition is at: D:/Desktop/CortexM3/RTL/peripheral/sram/cmsdk_ahb_to_sram.v(42).
+#    Time: 0 ps  Iteration: 0  Instance: /CortexM3_tb/i1/AhbDtcm File: D:/Desktop/CortexM3/RTL/peripheral/sram/cmsdk_ahb_to_sram.v
+# ** Warning: (vsim-3015) D:/Desktop/CortexM3/RTL/CortexM3.v(579): [PCDPC] - Port size (16) does not match connection size (32) for port 'HADDR'. The port definition is at: D:/Desktop/CortexM3/RTL/bus/Apb/cmsdk_ahb_to_apb.v(46).
+#    Time: 0 ps  Iteration: 0  Instance: /CortexM3_tb/i1/ApbBridge File: D:/Desktop/CortexM3/RTL/bus/Apb/cmsdk_ahb_to_apb.v
+# ** Warning: (vsim-3015) D:/Desktop/CortexM3/RTL/CortexM3.v(828): [PCDPC] - Port size (12) does not match connection size (16) for port 'PADDR'. The port definition is at: D:/Desktop/CortexM3/RTL/peripheral/lcd/custom_apb_lcd.v(11).
+#    Time: 0 ps  Iteration: 0  Instance: /CortexM3_tb/i1/LCD File: D:/Desktop/CortexM3/RTL/peripheral/lcd/custom_apb_lcd.v
+# ** Warning: (vsim-3015) D:/Desktop/CortexM3/RTL/CortexM3.v(856): [PCDPC] - Port size (12) does not match connection size (16) for port 'PADDR'. The port definition is at: D:/Desktop/CortexM3/RTL/peripheral/key/custom_apb_key.v(11).
+#    Time: 0 ps  Iteration: 0  Instance: /CortexM3_tb/i1/Key File: D:/Desktop/CortexM3/RTL/peripheral/key/custom_apb_key.v
+# ** Warning: (vsim-3015) D:/Desktop/CortexM3/RTL/CortexM3.v(878): [PCDPC] - Port size (12) does not match connection size (16) for port 'PADDR'. The port definition is at: D:/Desktop/CortexM3/RTL/peripheral/led/custom_apb_led.v(11).
+#    Time: 0 ps  Iteration: 0  Instance: /CortexM3_tb/i1/LED File: D:/Desktop/CortexM3/RTL/peripheral/led/custom_apb_led.v
+# ** Warning: (vsim-3015) D:/Desktop/CortexM3/RTL/CortexM3.v(900): [PCDPC] - Port size (12) does not match connection size (16) for port 'PADDR'. The port definition is at: D:/Desktop/CortexM3/RTL/peripheral/buzzer/custom_apb_buzzer.v(11).
+#    Time: 0 ps  Iteration: 0  Instance: /CortexM3_tb/i1/Buzzer File: D:/Desktop/CortexM3/RTL/peripheral/buzzer/custom_apb_buzzer.v
+add wave -position insertpoint  \
+sim:/CortexM3_tb/i1/AhbDtcm/HCLK \
+sim:/CortexM3_tb/i1/AhbDtcm/HRESETn \
+sim:/CortexM3_tb/i1/AhbDtcm/HSEL \
+sim:/CortexM3_tb/i1/AhbDtcm/HREADY
+add wave -position insertpoint  \
+{sim:/CortexM3_tb/i1/AhbDtcm/HTRANS[1]}
+add wave -position insertpoint  \
+sim:/CortexM3_tb/i1/AhbDtcm/HWRITE
+add wave -position insertpoint  \
+sim:/CortexM3_tb/i1/AhbDtcm/HADDR
+add wave -position insertpoint  \
+sim:/CortexM3_tb/i1/AhbDtcm/HWDATA
+run
+run
+restart -f
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# ** Warning: (vsim-3017) D:/Desktop/CortexM3/ModelSim/CortexM3_tb.v(11): [TFMPC] - Too few port connections. Expected 16, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /CortexM3_tb/i1 File: D:/Desktop/CortexM3/RTL/CortexM3.v
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/ModelSim/CortexM3_tb.v(11): [TFMPC] - Missing connection for port 'SWDIO'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/ModelSim/CortexM3_tb.v(11): [TFMPC] - Missing connection for port 'SWCLK'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/ModelSim/CortexM3_tb.v(11): [TFMPC] - Missing connection for port 'TXD'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/ModelSim/CortexM3_tb.v(11): [TFMPC] - Missing connection for port 'LCD_CS'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/ModelSim/CortexM3_tb.v(11): [TFMPC] - Missing connection for port 'LCD_RS'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/ModelSim/CortexM3_tb.v(11): [TFMPC] - Missing connection for port 'LCD_WR'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/ModelSim/CortexM3_tb.v(11): [TFMPC] - Missing connection for port 'LCD_RD'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/ModelSim/CortexM3_tb.v(11): [TFMPC] - Missing connection for port 'LCD_RST'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/ModelSim/CortexM3_tb.v(11): [TFMPC] - Missing connection for port 'LCD_BL_CTR'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/ModelSim/CortexM3_tb.v(11): [TFMPC] - Missing connection for port 'LCD_DATA'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/ModelSim/CortexM3_tb.v(11): [TFMPC] - Missing connection for port 'keyIn'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/ModelSim/CortexM3_tb.v(11): [TFMPC] - Missing connection for port 'ledOut'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/ModelSim/CortexM3_tb.v(11): [TFMPC] - Missing connection for port 'buzzerOut'.
+# ** Warning: (vsim-3017) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Too few port connections. Expected 122, found 71.
+#    Time: 0 ps  Iteration: 0  Instance: /CortexM3_tb/i1/ulogic File: D:/Desktop/CortexM3/RTL/core/cortexm3ds_logic.v
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'TDO'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'nTDOEN'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'SWV'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'JTAGNSW'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'TRACECLK'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'TRACEDATA'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'MEMATTRI'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'MEMATTRD'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'EXREQD'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'MEMATTRS'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'EXREQS'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'BRCHSTAT'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'HALTED'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'LOCKUP'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'SLEEPDEEP'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'ETMINTNUM'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'ETMINTSTAT'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'TXEV'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'TRCENA'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'CURRPRI'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'DBGRESTARTED'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'SLEEPHOLDACKn'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'GATEHCLK'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'HTMDHADDR'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'HTMDHTRANS'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'HTMDHSIZE'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'HTMDHBURST'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'HTMDHPROT'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'HTMDHWDATA'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'HTMDHWRITE'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'HTMDHRDATA'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'HTMDHREADY'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'HTMDHRESP'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'WICENACK'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'WAKEUP'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'vis_r0_o'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'vis_r1_o'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'vis_r2_o'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'vis_r3_o'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'vis_r4_o'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'vis_r5_o'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'vis_r6_o'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'vis_r7_o'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'vis_r8_o'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'vis_r9_o'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'vis_r10_o'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'vis_r11_o'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'vis_r12_o'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'vis_msp_o'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'vis_psp_o'.
+# ** Warning: (vsim-3722) D:/Desktop/CortexM3/RTL/CortexM3.v(187): [TFMPC] - Missing connection for port 'vis_pc_o'.
+# ** Warning: (vsim-3015) D:/Desktop/CortexM3/RTL/CortexM3.v(345): [PCDPC] - Port size (4) does not match connection size (2) for port 'HMASTERM0'. The port definition is at: D:/Desktop/CortexM3/RTL/bus/AhbMtx/AhbMtx.v(133).
+#    Time: 0 ps  Iteration: 0  Instance: /CortexM3_tb/i1/AhbMtx File: D:/Desktop/CortexM3/RTL/bus/AhbMtx/AhbMtx.v
+# ** Warning: (vsim-3015) D:/Desktop/CortexM3/RTL/CortexM3.v(345): [PCDPC] - Port size (4) does not match connection size (2) for port 'HMASTERM1'. The port definition is at: D:/Desktop/CortexM3/RTL/bus/AhbMtx/AhbMtx.v(148).
+#    Time: 0 ps  Iteration: 0  Instance: /CortexM3_tb/i1/AhbMtx File: D:/Desktop/CortexM3/RTL/bus/AhbMtx/AhbMtx.v
+# ** Warning: (vsim-3015) D:/Desktop/CortexM3/RTL/CortexM3.v(345): [PCDPC] - Port size (4) does not match connection size (2) for port 'HMASTERM2'. The port definition is at: D:/Desktop/CortexM3/RTL/bus/AhbMtx/AhbMtx.v(163).
+#    Time: 0 ps  Iteration: 0  Instance: /CortexM3_tb/i1/AhbMtx File: D:/Desktop/CortexM3/RTL/bus/AhbMtx/AhbMtx.v
+# ** Warning: (vsim-3015) D:/Desktop/CortexM3/RTL/CortexM3.v(482): [PCDPC] - Port size (16) does not match connection size (32) for port 'HADDR'. The port definition is at: D:/Desktop/CortexM3/RTL/peripheral/sram/cmsdk_ahb_to_sram.v(42).
+#    Time: 0 ps  Iteration: 0  Instance: /CortexM3_tb/i1/AhbItcm File: D:/Desktop/CortexM3/RTL/peripheral/sram/cmsdk_ahb_to_sram.v
+# ** Warning: (vsim-3015) D:/Desktop/CortexM3/RTL/CortexM3.v(526): [PCDPC] - Port size (16) does not match connection size (32) for port 'HADDR'. The port definition is at: D:/Desktop/CortexM3/RTL/peripheral/sram/cmsdk_ahb_to_sram.v(42).
+#    Time: 0 ps  Iteration: 0  Instance: /CortexM3_tb/i1/AhbDtcm File: D:/Desktop/CortexM3/RTL/peripheral/sram/cmsdk_ahb_to_sram.v
+# ** Warning: (vsim-3015) D:/Desktop/CortexM3/RTL/CortexM3.v(579): [PCDPC] - Port size (16) does not match connection size (32) for port 'HADDR'. The port definition is at: D:/Desktop/CortexM3/RTL/bus/Apb/cmsdk_ahb_to_apb.v(46).
+#    Time: 0 ps  Iteration: 0  Instance: /CortexM3_tb/i1/ApbBridge File: D:/Desktop/CortexM3/RTL/bus/Apb/cmsdk_ahb_to_apb.v
+# ** Warning: (vsim-3015) D:/Desktop/CortexM3/RTL/CortexM3.v(828): [PCDPC] - Port size (12) does not match connection size (16) for port 'PADDR'. The port definition is at: D:/Desktop/CortexM3/RTL/peripheral/lcd/custom_apb_lcd.v(11).
+#    Time: 0 ps  Iteration: 0  Instance: /CortexM3_tb/i1/LCD File: D:/Desktop/CortexM3/RTL/peripheral/lcd/custom_apb_lcd.v
+# ** Warning: (vsim-3015) D:/Desktop/CortexM3/RTL/CortexM3.v(856): [PCDPC] - Port size (12) does not match connection size (16) for port 'PADDR'. The port definition is at: D:/Desktop/CortexM3/RTL/peripheral/key/custom_apb_key.v(11).
+#    Time: 0 ps  Iteration: 0  Instance: /CortexM3_tb/i1/Key File: D:/Desktop/CortexM3/RTL/peripheral/key/custom_apb_key.v
+# ** Warning: (vsim-3015) D:/Desktop/CortexM3/RTL/CortexM3.v(878): [PCDPC] - Port size (12) does not match connection size (16) for port 'PADDR'. The port definition is at: D:/Desktop/CortexM3/RTL/peripheral/led/custom_apb_led.v(11).
+#    Time: 0 ps  Iteration: 0  Instance: /CortexM3_tb/i1/LED File: D:/Desktop/CortexM3/RTL/peripheral/led/custom_apb_led.v
+# ** Warning: (vsim-3015) D:/Desktop/CortexM3/RTL/CortexM3.v(900): [PCDPC] - Port size (12) does not match connection size (16) for port 'PADDR'. The port definition is at: D:/Desktop/CortexM3/RTL/peripheral/buzzer/custom_apb_buzzer.v(11).
+#    Time: 0 ps  Iteration: 0  Instance: /CortexM3_tb/i1/Buzzer File: D:/Desktop/CortexM3/RTL/peripheral/buzzer/custom_apb_buzzer.v
+add wave -position insertpoint  \
+sim:/CortexM3_tb/i1/AhbMtx/HCLK \
+sim:/CortexM3_tb/i1/AhbMtx/HRESETn \
+sim:/CortexM3_tb/i1/AhbMtx/REMAP \
+sim:/CortexM3_tb/i1/AhbMtx/HSELS0 \
+sim:/CortexM3_tb/i1/AhbMtx/HADDRS0 \
+sim:/CortexM3_tb/i1/AhbMtx/HTRANSS0 \
+sim:/CortexM3_tb/i1/AhbMtx/HWRITES0 \
+sim:/CortexM3_tb/i1/AhbMtx/HSIZES0 \
+sim:/CortexM3_tb/i1/AhbMtx/HBURSTS0 \
+sim:/CortexM3_tb/i1/AhbMtx/HPROTS0 \
+sim:/CortexM3_tb/i1/AhbMtx/HMASTERS0 \
+sim:/CortexM3_tb/i1/AhbMtx/HWDATAS0 \
+sim:/CortexM3_tb/i1/AhbMtx/HMASTLOCKS0 \
+sim:/CortexM3_tb/i1/AhbMtx/HREADYS0 \
+sim:/CortexM3_tb/i1/AhbMtx/HAUSERS0 \
+sim:/CortexM3_tb/i1/AhbMtx/HWUSERS0
+add wave -position insertpoint  \
+sim:/CortexM3_tb/i1/AhbMtx/HRDATAS0 \
+sim:/CortexM3_tb/i1/AhbMtx/HREADYOUTS0 \
+sim:/CortexM3_tb/i1/AhbMtx/HRESPS0 \
+sim:/CortexM3_tb/i1/AhbMtx/HRUSERS0
+add wave -position insertpoint  \
+sim:/CortexM3_tb/i1/AhbMtx/HRDATAM0 \
+sim:/CortexM3_tb/i1/AhbMtx/HREADYOUTM0 \
+sim:/CortexM3_tb/i1/AhbMtx/HRESPM0 \
+sim:/CortexM3_tb/i1/AhbMtx/HRUSERM0
+add wave -position insertpoint  \
+sim:/CortexM3_tb/i1/AhbMtx/HSELM0 \
+sim:/CortexM3_tb/i1/AhbMtx/HADDRM0 \
+sim:/CortexM3_tb/i1/AhbMtx/HTRANSM0 \
+sim:/CortexM3_tb/i1/AhbMtx/HWRITEM0 \
+sim:/CortexM3_tb/i1/AhbMtx/HSIZEM0 \
+sim:/CortexM3_tb/i1/AhbMtx/HBURSTM0 \
+sim:/CortexM3_tb/i1/AhbMtx/HPROTM0 \
+sim:/CortexM3_tb/i1/AhbMtx/HMASTERM0 \
+sim:/CortexM3_tb/i1/AhbMtx/HWDATAM0 \
+sim:/CortexM3_tb/i1/AhbMtx/HMASTLOCKM0 \
+sim:/CortexM3_tb/i1/AhbMtx/HREADYMUXM0 \
+sim:/CortexM3_tb/i1/AhbMtx/HAUSERM0 \
+sim:/CortexM3_tb/i1/AhbMtx/HWUSERM0
+run
+quit -sim
+# End time: 22:52:12 on Jul 21,2023, Elapsed time: 0:26:59
+# Errors: 0, Warnings: 0

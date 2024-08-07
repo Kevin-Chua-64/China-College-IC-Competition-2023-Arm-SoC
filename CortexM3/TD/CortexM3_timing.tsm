@@ -1,0 +1,17 @@
+ph1_60
+13 0 0 0 0 0 0
+infinity infinity CortexM3 ph1_60 PH1A60GEG324 Detail 3 12 0
+
+Timing group statistics: 
+	Clock constraints: 
+	  No constraint path
+	Minimum input arrival time before clock: no constraint path
+	Maximum output required time after clock: no constraint path
+	Maximum combinational path delay: no constraint path
+Warning: No clock constraint on 5 clock net(s): 
+	CLK50m_dup_1
+	SWCLK_dup_1
+	SynClockTD$PLL/clk0_buf
+	ulogic/HCLK
+	ulogic/SWCLKTCK
+

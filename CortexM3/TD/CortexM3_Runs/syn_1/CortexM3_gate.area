@@ -1,0 +1,69 @@
+standard
+***Report Model: CortexM3 Device: PH1A60GEG324***
+
+IO Statistics
+#IO                        35
+  #input                    8
+  #output                  26
+  #inout                    1
+
+Utilization Statistics
+#lut                    16346
+  #lut1                     5
+  #lut2                  1415
+  #lut3                  2676
+  #lut4                  2549
+  #lut5                  3830
+  #lut6                  5043
+  #1-bit adder            828
+#reg                     5433   out of  78720    6.90%
+  #dff                   5433
+  #latch                    0
+#f7mux                    128   out of  19680    0.65%
+#f8mux                     64   out of   9840    0.65%
+#dsp                        3   out of    120    2.50%
+#eram                       0   out of    158    0.00%
+  #eram20k                  0
+  #fifo20k                  0
+#dram                     128
+#pad                       35   out of    211   16.59%
+  #ireg                     0
+  #oreg                     0
+  #treg                     0
+#pll                        1   out of     12    8.33%
+
+Report Hierarchy Area:
++------------------------------------------------------------------------------------------------------------------------------------------------------+
+|Instance                     |Module               |lut     |ripple  |seq     |eram    |dsp     |dram    |shifter |pll     |serdes  |pcie    |ddr     |
++------------------------------------------------------------------------------------------------------------------------------------------------------+
+|top                          |CortexM3             |15518   |828     |5433    |0       |3       |128     |0       |1       |0       |0       |0       |
+|  AhbDtcm                    |cmsdk_ahb_to_sram    |48      |0       |49      |0       |0       |0       |0       |0       |0       |0       |0       |
+|  AhbItcm                    |cmsdk_ahb_to_sram    |30      |0       |49      |0       |0       |0       |0       |0       |0       |0       |0       |
+|  AhbMtx                     |AhbMtx               |44      |0       |117     |0       |0       |0       |0       |0       |0       |0       |0       |
+|    u_AhbMtxInStg_0          |AhbMtxInStg          |2       |0       |26      |0       |0       |0       |0       |0       |0       |0       |0       |
+|    u_AhbMtxInStg_1          |AhbMtxInStg          |2       |0       |30      |0       |0       |0       |0       |0       |0       |0       |0       |
+|    u_AhbMtxInStg_2          |AhbMtxInStg          |5       |0       |38      |0       |0       |0       |0       |0       |0       |0       |0       |
+|    u_ahbmtxdecs0            |AhbMtxDecS0          |3       |0       |3       |0       |0       |0       |0       |0       |0       |0       |0       |
+|      u_AhbMtx_default_slave |AhbMtx_default_slave |2       |0       |2       |0       |0       |0       |0       |0       |0       |0       |0       |
+|    u_ahbmtxdecs1            |AhbMtxDecS1          |3       |0       |3       |0       |0       |0       |0       |0       |0       |0       |0       |
+|      u_AhbMtx_default_slave |AhbMtx_default_slave |2       |0       |2       |0       |0       |0       |0       |0       |0       |0       |0       |
+|    u_ahbmtxdecs2            |AhbMtxDecS2          |5       |0       |5       |0       |0       |0       |0       |0       |0       |0       |0       |
+|      u_AhbMtx_default_slave |AhbMtx_default_slave |2       |0       |2       |0       |0       |0       |0       |0       |0       |0       |0       |
+|    u_ahbmtxoutstgm0_0       |AhbMtxOutStgM0       |7       |0       |3       |0       |0       |0       |0       |0       |0       |0       |0       |
+|      u_output_arb           |AhbMtxArbM0          |7       |0       |2       |0       |0       |0       |0       |0       |0       |0       |0       |
+|    u_ahbmtxoutstgm1_1       |AhbMtxOutStgM1       |5       |0       |4       |0       |0       |0       |0       |0       |0       |0       |0       |
+|      u_output_arb           |AhbMtxArbM1          |4       |0       |2       |0       |0       |0       |0       |0       |0       |0       |0       |
+|    u_ahbmtxoutstgm2_2       |AhbMtxOutStgM2       |12      |0       |5       |0       |0       |0       |0       |0       |0       |0       |0       |
+|      u_output_arb           |AhbMtxArbM2          |8       |0       |2       |0       |0       |0       |0       |0       |0       |0       |0       |
+|  ApbBridge                  |cmsdk_ahb_to_apb     |220     |0       |51      |0       |0       |0       |0       |0       |0       |0       |0       |
+|  Buzzer                     |custom_apb_buzzer    |2       |0       |1       |0       |0       |0       |0       |0       |0       |0       |0       |
+|  DTCM                       |cmsdk_fpga_sram      |313     |0       |11      |0       |0       |64      |0       |0       |0       |0       |0       |
+|  ITCM                       |cmsdk_fpga_sram      |410     |0       |11      |0       |0       |64      |0       |0       |0       |0       |0       |
+|  Key                        |custom_apb_key       |5       |0       |4       |0       |0       |0       |0       |0       |0       |0       |0       |
+|  LCD                        |custom_apb_lcd       |31      |0       |22      |0       |0       |0       |0       |0       |0       |0       |0       |
+|  LED                        |custom_apb_led       |3       |0       |2       |0       |0       |0       |0       |0       |0       |0       |0       |
+|  SynClockTD$PLL             |PLL                  |0       |0       |0       |0       |0       |0       |0       |1       |0       |0       |0       |
+|  Timer                      |cmsdk_apb_timer      |71      |33      |77      |0       |0       |0       |0       |0       |0       |0       |0       |
+|  UART                       |cmsdk_apb_uart       |116     |17      |116     |0       |0       |0       |0       |0       |0       |0       |0       |
+|  ulogic                     |cortexm3ds_logic     |14223   |778     |4921    |0       |3       |0       |0       |0       |0       |0       |0       |
++------------------------------------------------------------------------------------------------------------------------------------------------------+

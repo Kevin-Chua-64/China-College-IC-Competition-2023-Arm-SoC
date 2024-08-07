@@ -1,0 +1,16 @@
+<sld_project_info>
+  <project>
+    <hash md5_digest_80b="6861a1f18066dc14ef87"/>
+  </project>
+  <file_info>
+    <file device="EP4CE55F23I7" path="CortexM3.sof" usercode="0xFFFFFFFF"/>
+  </file_info>
+  <sld_infos>
+    <sld_info hpath="BUFG:SynClockQuartus.sw_clk" name="SynClockQuartus.sw_clk">
+      <assignment_values>
+        <assignment_value text="QSYS_NAME BUFG HAS_SOPCINFO 1 GENERATION_ID 1685500673"/>
+      </assignment_values>
+      <parameters/>
+    </sld_info>
+  </sld_infos>
+</sld_project_info>
